@@ -19,8 +19,9 @@ Image processing and synthesis:
 * [Learning to see in the dark](https://www.youtube.com/watch?v=bcZFQ3f26pA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=144)
 * [Image matting](https://www.youtube.com/watch?v=6DVng5JVuhI&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=100&t=0s)
 * [Everybody Dance Now](https://www.youtube.com/watch?v=cEBgi6QYDhQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=161&t=0s)
-* [Google's Big GAN]() A pretrained BigGAN is what powers many recent GAN art projects, e.g., [GanBreeder](https://ganbreeder.app/)
-* [GAN dissection](https://www.youtube.com/watch?v=ZKQp28OqwNQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=182)
+* [Google's Big GAN](https://www.youtube.com/watch?v=ZKQp28OqwNQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=182) A pretrained BigGAN is what powers many recent GAN art projects, e.g., [GanBreeder](https://ganbreeder.app/)
+* [GAN dissection](https://www.youtube.com/watch?v=iM4PPGDQry0)
+* [Generating images from text descriptions](https://www.youtube.com/watch?v=9bcbh2hC7Hw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=69&t=0s)
 
 Processing and synthesis of other media:
 * [WaveNet](https://www.youtube.com/watch?v=CqFIVCD1WWo&index=42&t=0s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
