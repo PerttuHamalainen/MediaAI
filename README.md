@@ -1,12 +1,21 @@
 # Intelligent Computational Media
-This repository contains the lecture materials and examples for Aalto University's Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/). The course covers AI and machine learning for games and audiovisual media.
+This repository contains the lecture materials and examples for Aalto University's Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/).
 
 Check [MyCourses](https://mycourses.aalto.fi/course/search.php?search=intelligent+computational+media#menu4) to see when the course is run for the next time!
+
+## Learning goals
+The course covers AI and machine learning for games and audiovisual media.
+* Understand how common AI algorithms & tools work
+* Understand what the tools can be used for in context of art, media, and design
+* Get hands-on practice of designing, implementing and/or using the tools
+
+The first week of the course has introductory lectures, but the rest of the time is devoted to project work that can be done alone or together with a pair or group. The teachers will be there to provide
+personalized assistance.
 
 ## Road to learning
 Check the [lessons](Lessons/README.md) and browse the [code examples](Code/README.md). Also check the other repositories and links below.
 
-**The field is changing rapidly and this course is constantly evolving. We will add relevant resources and materials below as we find them, gradually incorporating them to the lectures as well.** Thus, if you want to stay updated, check back at this page every now and then.
+**The field is changing rapidly and this course is constantly evolving. We will keep adding relevant resources and materials below, gradually incorporating them to the lectures as well.** Thus, if you want to stay updated, check back at this page every now and then.
 
 ## Overview & design philosophy
 This is a crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible:**
@@ -27,9 +36,11 @@ This course covers similar content as Gene Kogan's excellent NYU course [Neural 
 
 
 ### Primary resources
-* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to hacking AI code together in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and use it for drawing on the webcam view.
+* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to audiovisual AI coding in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view.
 
 * [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.  
+
+* [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents), a framework for using deep reinforcement learning for Unity. Includes code examples and blog posts.
 
 * [Two Minute Papers](https://www.youtube.com/playlist?list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2), a YouTube channel with short and accessible explanations of AI and deep learning research papers.
 
