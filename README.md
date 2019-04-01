@@ -1,10 +1,10 @@
 # Intelligent Computational Media
-This repository contains the lecture materials and examples for Aalto University's Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/).
+This repository contains the lecture materials and examples for Aalto University's Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/). The course covers AI and machine learning for games and audiovisual media.
 
 Check [MyCourses](https://mycourses.aalto.fi/course/search.php?search=intelligent+computational+media#menu4) to see when the course is run for the next time!
 
 ## Road to learning
-Check the [lectures]() and browse the [code examples](). Also check the other repositories and links below.
+Check the [lessons](Lessons/README.md) and browse the [code examples](Code/README.md). Also check the other repositories and links below.
 
 **The field is changing rapidly and this course is constantly evolving. We will add relevant resources and materials below as we find them, gradually incorporating them to the lectures as well.** Thus, if you want to stay updated, check back at this page every now and then.
 
@@ -27,9 +27,19 @@ This course covers similar content as Gene Kogan's excellent NYU course [Neural 
 
 
 ### Primary resources
-* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that enables one to immediately start hacking AI code together in a [browser-based editor](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ), without installing anything. Works even on mobile browsers!
+* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to hacking AI code together in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and use it for drawing on the webcam view.
 
-* Kogan's [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.  
+* [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.  
+
+* [Two Minute Papers](https://www.youtube.com/playlist?list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2), a YouTube channel with short and accessible explanations of AI and deep learning research papers.
+
+* [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), a YouTube channel with excellent visual explanations on math, including [neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) and [linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
+
+* [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis
+
+* [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics.
+
+
 
 
 ### Unsorted resources and links
