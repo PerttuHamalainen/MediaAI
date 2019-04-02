@@ -1,33 +1,44 @@
-# Syllabus
-This page links to all the materials.
+# Syllabus and materials
+Here's all you needed for your first few weeks of creative AI and ML coding and experiments, with supplementary materials to support further learning.
 
-## Before the course:
+## Before the course
 * [Prerequisites](Prerequisites.md) Make sure you go through these before the course.
 
 ## Lectures
-The lessons each include an online document with key insights and exercises, and link to lecture slides with more details. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are covered in the exercises.
+The lessons each include an online document with key insights and exercises, augmented with lecture slides and notes with more details. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are covered in the exercises.
 
 Day 1:
 * [Introduction and motivation](Intro.md). Why one should rather co-create than compete with AI technology.
 * [Neural networks, part 1](NeuralNetworks1.md). Basics of neural networks, focusing on discriminative models like image classification.
-* [Tools and frameworks](Tools.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
+* [Tools and frameworks.](Tools.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
 
 Day 2:
-* [Neural networks, part 2](NeuralNetworks2.md). From discriminative to generative models like GANs.
+* [Neural networks, part 2](NeuralNetworks2.md). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
 * [Audio exercises, part 1](Audio.md).
 
 Day 3:
-* [Neural networks, part 3](NeuralNetworks3.md). Sequential problems like text prediction and generations.
+* [Neural networks, part 3](NeuralNetworks3.md). Sequential problems like text prediction and generation.
 * [Audio exercises, part 2](Audio2.md)
 
 Day 4:
-* [Optimization, part 1](Optimization.md). Pretty much all AI is (mathematical) optimization. This first part deals with continuous-valued problems
+* [Optimization, part 1](Optimization.md). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems.
 
 Day 5:
-* [Optimization, part 2](Optimization.md). The second part expands to discrete and sequential problems like deep reinforcement learning.
+* [Optimization, part 2](Optimization.md). The second part expands to discrete and sequential problems like deep reinforcement learning for game AI.
+
+
+## Inspiration for further experiments
+*a.k.a. Heroes of Creative AI and ML coding*
+
+What to do with the skills and knowledge you gain on the course? Here are some people who are mixing AI, machine learning, art, and design with awesome results:
+
+* http://otoro.net/ml/
+* http://genekogan.com/
+* http://quasimondo.com/
+* http://zach.li/
 
 ## Supplementary material
-* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to audiovisual AI coding in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view.
+* [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to creative AI coding in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view. [This one](https://editor.p5js.org/genekogan/sketches/Hk2Q4Sqe4) utilizes similar PoseNet tracking to control procedural audio synthesis.
 
 * [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.  
 
@@ -40,14 +51,6 @@ Day 5:
 * [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis
 
 * [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics.
-
-## Heroes of creative AI coding
-For inspiration, here's some people who are mixing AI, machine learning, art, and design with awesome results:
-
-* http://otoro.net/ml/
-* http://genekogan.com/
-* http://quasimondo.com/
-* http://zach.li/
 
 
 ## Links
