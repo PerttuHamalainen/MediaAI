@@ -10,7 +10,7 @@ The lessons each include an online document with key insights and exercises, aug
 Day 1:
 * [Introduction and motivation](Intro.md). Why one should rather co-create than compete with AI technology.
 * [Neural networks, part 1](NeuralNetworks1.md). Basics of neural networks, focusing on discriminative models like image classification.
-* [Tools and frameworks.](Tools.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
+* [Tools and frameworks.](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
 
 Day 2:
 * [Neural networks, part 2](NeuralNetworks2.md). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
