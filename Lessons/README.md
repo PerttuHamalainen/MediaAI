@@ -26,7 +26,7 @@ Day 4:
 Day 5:
 * [Optimization, part 2](Optimization.md). The second part expands to discrete and sequential problems like deep reinforcement learning.
 
-## Primary supplementary materials
+## Supplementary material
 * [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to audiovisual AI coding in a [browser-based editor](https://editor.p5js.org), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view.
 
 * [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.  
@@ -41,8 +41,16 @@ Day 5:
 
 * [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics.
 
+## Heroes of creative AI coding
+For inspiration, here's some people who are mixing AI, machine learning, art, and design with awesome results:
 
-## Other material
+* http://otoro.net/ml/
+* http://genekogan.com/
+* http://quasimondo.com/
+* http://zach.li/
+
+
+## Links
 **The field is changing rapidly and this course is constantly evolving. We will keep adding relevant resources and materials below, gradually incorporating them to the lectures as well.** Thus, if you want to stay updated, check back at this page every now and then.
 
 [Back to course home](../README.md)

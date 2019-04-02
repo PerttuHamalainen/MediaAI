@@ -1,5 +1,5 @@
 # Prerequisites
-Before you attend the class, you should do the following:
+Before you attend the class, you should go through the following (about 2 hours total):
 
 * Go through the selection of Two Minute Papers videos below to get an idea of the range of computational media applications possible with modern machine learning.
 
@@ -29,3 +29,13 @@ Processing and synthesis of other media:
 * [Singing synthesis](https://www.youtube.com/watch?v=HANeLG0l2GA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=121&t=0s)
 * [Recurrent neural network writes music and novels](https://www.youtube.com/watch?v=Jkkjy7dVdaY&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=8&t=0s)
 * [Terrain generation](https://www.youtube.com/watch?v=NEscK5RCtlo&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=99&t=0s)
+
+## Software installation
+If you plan to work on your own computer, you should install the software packages below. These will be pre-installed on the classroom computers, on which students can't install anything on their own.
+
+* [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/community/) with Python tools (check the install options). While many develop Python code with other IDEs like Spyder or Pycharm, Visual Studio is the recommended IDE for this course because it also works for any game AI experiments done in Unity C#.
+* [Anaconda](https://www.anaconda.com/distribution/) with Python 3.x. If you're using Windows, it's recommended to set the environment variable CONDA_ENVS_PATH to c:\CondaEnvs\ or something equally short; the default path is so long that installing some python packages like OpenAI Gym with MuJoCo will fail. After installing Anaconda, open the Anaconda command prompt and create a new virtual environment into which you'll install everything else by typing "conda create MediaAI" and then "activate MediaAI".
+* [Tensorflow](https://www.tensorflow.org/), preferably with GPU support, which however requires some extra prerequisites like CUDA. With the prerequisites in place, you should be able to install Tensorflow by typing "pip install --ignore-installed --upgrade tensorflow-gpu" in the Anaconda prompt, with your MediaAI virtual environment. If you find the GPU support  installation too cumbersome or don't have at least an NVIDIA GeForce GTX 1050 or better graphics card, you can install the CPU version using "pip install --ignore-installed --upgrade tensorflow". However, this will train large neural networks much more slowly. For small networks and first experiments, the CPU version works fine.  
+* [Pillow](https://pillow.readthedocs.io/en/stable/). This is a Python package that helps in loading and saving images. Use "pip install Pillow" in the Anaconda prompt, with your MediaAI virtual environment.
+* [Unity](https://unity.com/), the world's most popular game engine, which we use for game AI
+* [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents), Unity's framework for training deep reinforcement learning Agents
