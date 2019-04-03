@@ -1,4 +1,8 @@
+
 # Intelligent Computational Media
+![Images generated using GanBreeder](Lessons/Media/GanBreederWide128.png)
+*Images created using [GanBreeder](https://ganbreeder.app/)*
+
 This repository contains the lecture materials and examples for [Aalto University]()'s Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/).
 
 Check [MyCourses](https://mycourses.aalto.fi/course/search.php?search=intelligent+computational+media#menu4) to see when the course is run for the next time!
@@ -20,7 +24,7 @@ personalized assistance.
 This is a crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible:**
 
 * Basic programming skills (e.g., some  python, processing, or Unity C#)
-* High-school math. We focus on visual explanations that are enough to understand why and how various AI methods work.
+* Basic high-school math. We focus on visual explanations that are enough to understand why and how various AI methods work.
 
 The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**.
 
@@ -30,4 +34,6 @@ This course covers similar content as Gene Kogan's excellent NYU course [Neural 
 
 * Designed to run as a 1 week full-day workshop or a 3-week intensive with sessions from 9am to 12am, Tuesday-Friday, according to Aalto Media Lab's usual study schedule. This more of a short crash course than a full semester one, and students willing to learn more should definitely check Kogan's course as well.
 
-* More content on games, inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now discontinued)
+* More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
+
+Compared to [Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS, we have some similar exercises, but the focus is more on applications and less on theory and mathematics. The more mathematically inclined students are highly encouraged to take both courses.

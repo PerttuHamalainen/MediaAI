@@ -1,8 +1,11 @@
 # Syllabus and materials
+![Images generated using GanBreeder](Media/GanBreederWide128.png)
+*Images created using [GanBreeder](https://ganbreeder.app/)*
+
 Here's all you needed for your first few weeks of creative AI and ML coding and experiments, with supplementary materials to support further learning.
 
 ## Before the course
-* [Prerequisites](Prerequisites.md) Make sure you go through these before the course.
+* [Prerequisites](Prerequisites.md). Make sure you go through these before the course.
 
 ## Lectures
 The lessons each include an online document with key insights and exercises, augmented with lecture slides and notes with more details. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are covered in the exercises.
@@ -48,9 +51,9 @@ What to do with the skills and knowledge you gain on the course? Here are some p
 
 * [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), a YouTube channel with excellent visual explanations on math, including [neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) and [linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
 
-* [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis
+* [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis. PDF available.
 
-* [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics.
+* [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics. PDF available.
 
 
 ## Links

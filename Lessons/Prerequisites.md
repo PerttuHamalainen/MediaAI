@@ -1,7 +1,7 @@
 # Prerequisites
 Before you attend the class, you should go through the materials and instructions on this page. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
 
-** Do the following **
+**Do the following**
 
 * Go through the selection of Two Minute Papers videos below to get an idea of the range of computational media applications possible with modern machine learning.
 
@@ -35,6 +35,7 @@ Processing and synthesis of other media:
 * [Singing synthesis](https://www.youtube.com/watch?v=HANeLG0l2GA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=121&t=0s)
 * [Recurrent neural network writes music and novels](https://www.youtube.com/watch?v=Jkkjy7dVdaY&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=8&t=0s)
 * [Terrain generation](https://www.youtube.com/watch?v=NEscK5RCtlo&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=99&t=0s)
+* [Hallucinating audio based on video](https://www.youtube.com/watch?v=flOevlA9RyQ)
 
 ## Software installation
 If you plan to work on your own computer, you should install the software packages below. These will be pre-installed on the classroom computers, on which students can't install anything on their own.
@@ -43,6 +44,6 @@ If you plan to work on your own computer, you should install the software packag
 * [Anaconda](https://www.anaconda.com/distribution/) with Python 3.x. If you're using Windows, it's recommended to set the environment variable CONDA_ENVS_PATH to c:\CondaEnvs\ or something equally short; the default path is so long that installing some python packages like OpenAI Gym with MuJoCo will fail. After installing Anaconda, open the Anaconda command prompt and create a new virtual environment into which you'll install everything else by typing "conda create MediaAI" and then "activate MediaAI". This is important because if you want to use some open source deep learning code, chances are it will require different versions of some Python package. Using separate virtual environments for different projects allows you to have multiple versions of the packages.
 * [Tensorflow](https://www.tensorflow.org/), preferably with GPU support, which however requires some extra prerequisites like CUDA. With the prerequisites in place, you should be able to install Tensorflow by typing "pip install --ignore-installed --upgrade tensorflow-gpu" in the Anaconda prompt, with your MediaAI virtual environment. If you find the GPU support  installation too cumbersome or don't have at least an NVIDIA GeForce GTX 1050 or better graphics card, you can install the CPU version using "pip install --ignore-installed --upgrade tensorflow". However, this will train large neural networks much more slowly. For small networks and first experiments, the CPU version works fine.  
 * [Pillow](https://pillow.readthedocs.io/en/stable/). This is a Python package that helps in loading and saving images. Use "pip install Pillow" in the Anaconda prompt, with your MediaAI virtual environment activated.
-* [Jupyter](https://jupyter.org/). Jupyter is already included as part of Anaconda, but some extra tricks are needed to make it work with Anaconda virtual envs. In your Anaconda command prompt, with the MediaAI environment activated, type "pip install ipykernel" and then "python -m ipykernel install --user --name=MediaAI". Now, you should be able to run a Jupyter notebook test as "jupyter notebook <notebookpath>", where you replace <notebookpath> with, e.g., JupyterTest.ipynb from the code folder of this repository.
+* [Jupyter](https://jupyter.org/). Jupyter is already included as part of Anaconda, but some extra tricks are needed to make it work with Anaconda virtual envs. In your Anaconda command prompt, with the MediaAI environment activated, type "pip install ipykernel" and then "python -m ipykernel install --user --name=MediaAI". Now, you should be able to run a Jupyter notebook test as "jupyter notebook <notebookpath>", where you replace <notebookpath> with, e.g., **TODO** from the code folder of this repository. (NOTE: If you click on the link, Github will render a static version of the notebook that you cannot edit.)
 * [Unity](https://unity.com/), the world's most popular game engine, which we use for game AI
 * [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents), Unity's framework for training deep reinforcement learning Agents
