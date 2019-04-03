@@ -1,7 +1,8 @@
 
 # Intelligent Computational Media
 ![Images generated using GanBreeder](Lessons/Media/GanBreederWide128.png)
-*Images created using [GanBreeder](https://ganbreeder.app/)*
+
+(*Images created using [GanBreeder](https://ganbreeder.app/)*)
 
 This repository contains the lecture materials and examples for [Aalto University]()'s Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/).
 
@@ -36,4 +37,4 @@ This course covers similar content as Gene Kogan's excellent NYU course [Neural 
 
 * More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
 
-Compared to [Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS, we have some similar exercises, but the focus is more on applications and less on theory and mathematics. The more mathematically inclined students are highly encouraged to take both courses.
+Compared to [Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS, we have some similar exercises, but the focus is more on applications and less on theory and mathematics, in order to make the material accessible for a wider audience. The more mathematically inclined students are highly encouraged to take both courses.

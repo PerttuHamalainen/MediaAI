@@ -1,8 +1,9 @@
 # Syllabus and materials
 ![Images generated using GanBreeder](Media/GanBreederWide128.png)
-*Images created using [GanBreeder](https://ganbreeder.app/)*
 
-Here's all you needed for your first few weeks of creative AI and ML coding and experiments, with supplementary materials to support further learning.
+(*Images created using [GanBreeder](https://ganbreeder.app/)*)
+
+Here's all you needed for your first few weeks of creative AI and ML experiments, with supplementary materials to support further learning.
 
 ## Before the course
 * [Prerequisites](Prerequisites.md). Make sure you go through these before the course.
