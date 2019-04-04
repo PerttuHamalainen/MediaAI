@@ -29,7 +29,7 @@ Image processing and synthesis:
 * [GAN dissection](https://www.youtube.com/watch?v=iM4PPGDQry0)
 * [Generating images from text descriptions](https://www.youtube.com/watch?v=9bcbh2hC7Hw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=69&t=0s)
 
-Processing and synthesis of other media:
+Audio processing and synthesis:
 * [WaveNet](https://www.youtube.com/watch?v=CqFIVCD1WWo&index=42&t=0s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
 * [Google's text to speech](https://www.youtube.com/watch?v=bdM9c2OFYuw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=119)
 * [Singing synthesis](https://www.youtube.com/watch?v=HANeLG0l2GA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=121&t=0s)
