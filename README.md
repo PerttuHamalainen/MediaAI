@@ -1,5 +1,5 @@
 # Intelligent Computational Media
-This repository contains the lecture materials and examples for [Aalto University]()'s Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroglu](http://mlab.taik.fi/~korayt/).
+This repository contains the lecture materials and examples for [Aalto University]()'s Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info) and [Koray Tahiroğlu](https://sopi.aalto.fi/koraytahiroglu/).
 
 Check [MyCourses](https://mycourses.aalto.fi/course/search.php?search=intelligent+computational+media#menu4) to see when the course is run for the next time!
 
