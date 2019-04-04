@@ -26,7 +26,7 @@ On the other hand, the Jupyter interface lacks code autocompletion and other com
 **To load and edit a notebook, type "jupyter notebook <notebookname>" in your Anaconda command prompt.**
 
 ## Tensors, numpy, matplotlib
-[This Jupyter notebook](../code/Jupyter/DataAndTensors.ipynb) introduces you to tensors, numpy and matplotlib, the basic tools you need for any scientific computing.
+[This Jupyter notebook](../Code/Jupyter/DataAndTensors.ipynb) introduces you to tensors, numpy and matplotlib, the basic tools you need for any scientific computing.
 
 Key takeaways:
 
@@ -39,9 +39,9 @@ Key takeaways:
 ## Tensorflow
 [Tensorflow](https://www.tensorflow.org/) is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity.
 
-[This notebook](../code/jupyter/PredictWeight.ipynb) trains some basic models using a [Kaggle](https://www.kaggle.com/) dataset of human height, weight, and gender.
+[This notebook](../Code/Jupyter/PredictWeight.ipynb) trains some basic models using a [Kaggle](https://www.kaggle.com/) dataset of human height, weight, and gender.
 
-[This notebook](../code/jupyter/MNIST.ipynb) continues the lesson into image classification, the bread-and-butter of neural networks. As an exercise, you're asked to modify the network for classifying audio and visualize/sonify the learned features.
+[This notebook](../Code/Jupyter/MNIST.ipynb) continues the lesson into image classification, the bread-and-butter of neural networks. As an exercise, you're asked to modify the network for classifying audio and visualize/sonify the learned features.
 
 The key takeaways:
 
