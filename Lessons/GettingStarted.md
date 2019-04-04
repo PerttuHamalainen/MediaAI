@@ -26,7 +26,7 @@ On the other hand, the Jupyter interface lacks code autocompletion and other com
 **To load and edit a notebook, type "jupyter notebook <notebookname>" in your Anaconda command prompt.**
 
 ## Tensors, numpy, matplotlib
-[This Jupyter notebook](../code/jupyter/Tensors.ipynb) introduces you to tensors, numpy and matplotlib, the basic tools you need for any scientific computing.
+[This Jupyter notebook](../code/Jupyter/DataAndTensors.ipynb) introduces you to tensors, numpy and matplotlib, the basic tools you need for any scientific computing.
 
 Key takeaways:
 
@@ -39,7 +39,7 @@ Key takeaways:
 ## Tensorflow
 [Tensorflow](https://www.tensorflow.org/) is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity.
 
-[This notebook](../code/jupyter/MNIST.ipynb) trains some basic models using a [Kaggle](https://www.kaggle.com/) dataset of human height, weight, and gender.
+[This notebook](../code/jupyter/PredictWeight.ipynb) trains some basic models using a [Kaggle](https://www.kaggle.com/) dataset of human height, weight, and gender.
 
 [This notebook](../code/jupyter/MNIST.ipynb) continues the lesson into image classification, the bread-and-butter of neural networks. As an exercise, you're asked to modify the network for classifying audio and visualize/sonify the learned features.
 
@@ -61,4 +61,4 @@ A recent alternative to Python is Javascript, using the [p5js](http://p5js.org/)
 
 On this course, students can choose whatever software tools and frameworks they prefer. If you are more experienced in Javascript than Python, it might be a good choice. In particular, p5js provides easy [interactive visualization](https://p5js.org/examples/) and a quite a wide palette of [sound synthesis tools](https://p5js.org/reference/#/libraries/p5.sound).
 
-*Caution:* Getting your data into the Javascript environment can be tricky. For example, in this [MNIST example](https://github.com/tensorflow/tfjs-examples/tree/master/mnist), the whole dataset was encoded as a huge PNG image that was then loaded as a p5js sprite. 
+*Caution:* Getting your data into the Javascript environment can be tricky. For example, in this [MNIST example](https://github.com/tensorflow/tfjs-examples/tree/master/mnist), the whole dataset was encoded as a huge PNG image that was then loaded as a p5js sprite.
