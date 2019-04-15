@@ -12,8 +12,8 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 The lessons each include lecture slides and/or a page with key insights and exercises. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are mostly covered in the exercises.
 
 Day 1:
-* [Introduction and motivation](Intro.md). Why one should rather co-create than compete with AI technology.
-* [Neural networks, part 1](NeuralNetworks1.md). Basics of neural networks, focusing on discriminative models like image classification.
+* [Introduction and motivation](LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
+* [Neural networks, part 1](LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
 * [Exercises](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
 
 Day 2:

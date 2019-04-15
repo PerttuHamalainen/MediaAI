@@ -8,11 +8,27 @@ In this lesson, we'll cover the basic software tools:
 
 Make sure you have your software environment ready, either using a school computer with everything preinstalled, or installing the various packages on your computer, as instructed in [the course prerequisites](Prerequisites.md).
 
-**The exercises of this lesson are in the form of Jupyter notebooks, except for ml5js. Each notebook ends with suggested modifications; implementing them verifies your learning.** We have provided model solutions in separate notebooks with the "solutions" suffix, in the same folder.
+**The exercises of this lesson are in the form of Jupyter notebooks (see below for more), except for ml5js. Each notebook ends with suggested modifications; implementing them verifies your learning.** We have provided model solutions in separate notebooks with the "solutions" suffix, in the same folder.
 
 After you've checked the notebooks and tried to implement the modifications, review the key takeaways listed below.
 
-## Jupyter notebooks
+## Lesson structure
+The lesson consists of a progression of Jupyter notebooks:
+
+* [Introduction to tensors, numpy and matplotlib](../Code/Jupyter/DataAndTensors.ipynb), the basic tools you need for any scientific computing.
+
+* [Training a very simple neural network](../Code/Jupyter/PredictWeight.ipynb)  using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight.
+
+* [Image classification](../Code/Jupyter/MNIST.ipynb), the bread-and-butter of neural networks.
+
+* [Sound classification](../Code/Jupyter/AudioMNIST.ipynb), to illustrate how processing audio can be done very similarly to images.
+
+* [Fooling the image classifier with adversarial images](../Code/Jupyter/AdversarialMNIST.ipynb). This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later.
+
+The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
+
+
+## About Jupyter notebooks
 Jupyter notebooks are a standard pedagogical tool in machine learning. Once you have a Jupyter server running on your local machine or remotely, you can write and run Python code in a browser. This has the following benefits:
 
 * You can execute and edit code in small snippets, which can save time because you don't have to restart the whole program
@@ -28,20 +44,6 @@ You can run the notebooks locally on your machine by opening the Anaconda prompt
 
 ## Running the notebooks on jupyter.cs.aalto.fi
 Alternatively, you can log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
-
-## Lesson structure
-The notebooks form a progression:
-
-* [Introduction to tensors, numpy and matplotlib](../Code/Jupyter/DataAndTensors.ipynb), the basic tools you need for any scientific computing.
-
-* [Training a very simple neural network](../Code/Jupyter/PredictWeight.ipynb)  using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight.
-
-* [Image classification](../Code/Jupyter/MNIST.ipynb), the bread-and-butter of neural networks.
-
-* [Fooling the image classifier with adversarial images](../Code/Jupyter/AdversarialMNIST.ipynb). This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will also revisit the topic later.
-
-
-The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
 
 
 
@@ -67,7 +69,7 @@ The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the cu
 ## ml5js, Tensorflow.js
 A recent alternative to Python is Javascript, using the [p5js](http://p5js.org/) and [ml5js](https://ml5js.org/) libraries. p5js is a Javascript Processing-inspired audiovisual coding framework, and m5js is a high-level wrapper for [Tensorflow.js](https://www.tensorflow.org/js). The [p5js web editor](https://editor.p5js.org/) allows you to start writing machine learning & Processing code in the browser, without installing anything. You can also [embed your scripts in an html file](https://github.com/tensorflow/tfjs-examples/tree/master/mnist), which however requires some additional code.
 
-[This p5js demo]() **TODO** does the same as the human height & weight Jupyter notebook above. It should illustrate the similarities and differences between Python and Javascript.
+[This p5js demo]() **TODO:** does the same as the human height & weight Jupyter notebook above. It should illustrate the similarities and differences between Python and Javascript.
 
 On this course, students can choose whatever software tools and frameworks they prefer. If you are more experienced in Javascript than Python, it might be a good choice. In particular, p5js provides easy [interactive visualization](https://p5js.org/examples/) and a quite a wide palette of [sound synthesis tools](https://p5js.org/reference/#/libraries/p5.sound).
 
