@@ -18,7 +18,7 @@ Day 2:
 
 Day 3:
 * [Neural networks, part 3](NeuralNetworks3.md). Sequential problems like text prediction and generation.
-* [Audio exercises, part 2] (https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md) Audio Classification exercise will look into previously created audio datasets and output the correct categorise of the input audio files.
+* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/tree/master/ICM_Audio/AudioExercises_part2/AudioClassification.md) Audio Classification exercise will look into previously created audio datasets and output the correct categorise of the input audio files.
 
 Day 4:
 * [Optimization, part 1](Optimization.md). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems.
