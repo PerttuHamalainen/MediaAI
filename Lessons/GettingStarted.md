@@ -23,13 +23,29 @@ Jupyter notebooks are a standard pedagogical tool in machine learning. Once you 
 
 On the other hand, the Jupyter interface lacks code autocompletion and other common productivity features, which is why most serious developers use tools like Visual Studio instead of Jupyter.
 
-# Running the notebooks
-You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository. Alternatively, you can log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit. 
+## Running the notebooks on your own computer
+You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
 
-## Tensors, numpy, matplotlib
-[This Jupyter notebook](../Code/Jupyter/DataAndTensors.ipynb) introduces you to tensors, numpy and matplotlib, the basic tools you need for any scientific computing.
+## Running the notebooks on jupyter.cs.aalto.fi
+Alternatively, you can log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
 
-Key takeaways:
+## Lesson structure
+The notebooks form a progression:
+
+* [Introduction to tensors, numpy and matplotlib](../Code/Jupyter/DataAndTensors.ipynb), the basic tools you need for any scientific computing.
+
+* [Training a very simple neural network](../Code/Jupyter/PredictWeight.ipynb)  using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight.
+
+* [Image classification](../Code/Jupyter/MNIST.ipynb), the bread-and-butter of neural networks.
+
+* [Fooling the image classifier with adversarial images](../Code/Jupyter/AdversarialMNIST.ipynb). This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will also revisit the topic later.
+
+
+The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
+
+
+
+## Tensors, numpy, matplotlib key takeaways
 
 * Tensors are multidimensional arrays of numbers. The *rank* of a tensor defines the dimensionality.
 * The *shape* of a tensor is an 1D array of numbers that describe how many elements the array has in each dimension.
@@ -37,14 +53,7 @@ Key takeaways:
 * Tensor math operations like division or multiplication are performed elementwise. If you want to use linear algebra operations like a dot product in Numpy, you must explicitly type np.dot(tensor_a,tensor_b).
 * Numpy code often utilizes *broadcasting*. Broadcasting expands tensors with only 1 element such that tensor math operations are possible to compute. For example, one can multiply together tensors of shape [4,4] and [4,1]; the latter is expanded to a [4,4] as if it was stacked 4 times along the second dimension. However, shapes [4,4] and [4] cannot be multiplied together, even though tensors of shapes [4] and [4,1] can contain exactly the same data! If you want to perform such multiplication, you must first explicitly reshape the [4] tensor to a [4,1] using np.reshape()  
 
-## Tensorflow
-[Tensorflow](https://www.tensorflow.org/) is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity.
-
-[This notebook](../Code/Jupyter/PredictWeight.ipynb) trains a single neuron neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight.
-
-[This notebook](../Code/Jupyter/MNIST.ipynb) continues the lesson into image classification, the bread-and-butter of neural networks. As an exercise, you're asked to modify the network for classifying audio and visualize/sonify the learned features.
-
-The key takeaways:
+## Tensorflow key takeaways
 
 * Tensorflow works like Numpy, but by constructing a *compute graph* of the math operations, as illustrated in the figure below.
 * *Variables* are special tensors that do not just represent the results of tensor operations. They fully define the state of the compute graph; saving or loading a trained neural network only requires saving or loading the variables.

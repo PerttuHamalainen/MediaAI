@@ -9,12 +9,12 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 * [Prerequisites](Prerequisites.md). Make sure you go through these before the course.
 
 ## Lectures
-The lessons each include an online document with key insights and exercises, augmented with lecture slides and notes with more details. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are covered in the exercises.
+The lessons each include lecture slides and/or a page with key insights and exercises. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are mostly covered in the exercises.
 
 Day 1:
 * [Introduction and motivation](Intro.md). Why one should rather co-create than compete with AI technology.
 * [Neural networks, part 1](NeuralNetworks1.md). Basics of neural networks, focusing on discriminative models like image classification.
-* [Tools and frameworks.](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
+* [Exercises](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
 
 Day 2:
 * [Neural networks, part 2](NeuralNetworks2.md). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
