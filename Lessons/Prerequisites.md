@@ -11,6 +11,8 @@ Before you attend the class, you should go through the materials and instruction
 
 * Optional: Install the software tools as instructed at the bottom of this page
 
+* Optional: Check out the awesome [Elements of AI](https://www.elementsofai.com/) course by University of Helsinki and Reaktor.
+
 
 **A selection Two Minute Papers videos:**
 
