@@ -21,7 +21,7 @@ Day 2:
 * [Audio exercises, part 1](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part1/UsingWavegan.md).
 
 Day 3:
-* [Neural networks, part 3](NeuralNetworks3.md). Sequential problems like text prediction and generation.
+* [Neural networks, part 3](LectureSlides/neural_networks_part1.pdf). Sequential problems like text prediction and generation.
 * [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)
 
 Day 4:
