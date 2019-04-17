@@ -17,12 +17,12 @@ Day 1:
 * [Exercises](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
 
 Day 2:
-* [Neural networks, part 2](NeuralNetworks2.md). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
-* [Audio exercises, part 1](Audio.md).
+* [Neural networks, part 2](LectureSlides/neural_networks_part1.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
+* [Audio exercises, part 1](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part1/UsingWavegan.md).
 
 Day 3:
 * [Neural networks, part 3](NeuralNetworks3.md). Sequential problems like text prediction and generation.
-* [Audio exercises, part 2](Audio2.md)
+* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)
 
 Day 4:
 * [Optimization, part 1](Optimization.md). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems.
