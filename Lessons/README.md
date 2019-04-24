@@ -14,7 +14,7 @@ The lessons each include lecture slides and/or a page with key insights and exer
 Day 1:
 * [Introduction and motivation](LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
 * [Neural networks, part 1](LectureSlides/neural_networks_part2.pdf). Basics of neural networks, focusing on discriminative models like image classification.
-* [Exercises](GettingStarted.md) Getting started with practical AI coding, understanding the strengths and weaknesses of frameworks like Tensorflow, Pytorch, and ml5js.
+* [Exercises](GettingStarted.md) Getting started with practical AI coding, with image and audio classification as the main "hello world" applications.
 
 Day 2:
 * [Neural networks, part 2](LectureSlides/neural_networks_part1.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
@@ -25,10 +25,14 @@ Day 3:
 * [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)
 
 Day 4:
-* [Optimization, part 1](LectureSlides/optimization_part1.pdf). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems.
+* [Optimization, part 1](LectureSlides/optimization_part1.pdf). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems, focusing on two key algorithms: Adam and CMA-ES.
+* Example: [Optimizing billiards trick shots in Unity](../Code/Unity/IntelligentPool)
+* Jupyter notebook exercise: [Abstract Adversarial Image Optimization Using CMA-ES](../Code/Jupyter/CMA-ES_Art.ipynb)
 
 Day 5:
-* [Optimization, part 2]((LectureSlides/optimization_part2.pdf). The second part expands to discrete and sequential problems like deep reinforcement learning for game AI.
+* [Optimization, part 2]((LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
+* [Optimization, part 3]((LectureSlides/optimization_part3.pdf). Optimizing action sequences through graph and tree search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
+
 
 
 ## Inspiration for further experiments
