@@ -13,11 +13,11 @@ The lessons each include lecture slides and/or a page with key insights and exer
 
 Day 1:
 * [Introduction and motivation](LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
-* [Neural networks, part 1](LectureSlides/neural_networks_part2.pdf). Basics of neural networks, focusing on discriminative models like image classification.
+* [Neural networks, part 1](LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
 * [Exercises](GettingStarted.md) Getting started with practical AI coding, with image and audio classification as the main "hello world" applications.
 
 Day 2:
-* [Neural networks, part 2](LectureSlides/neural_networks_part1.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
+* [Neural networks, part 2](LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
 * [Audio exercises, part 1](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part1/UsingWavegan.md).
 
 Day 3:
