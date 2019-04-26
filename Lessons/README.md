@@ -17,11 +17,11 @@ Day 1:
 * [Exercises](GettingStarted.md) Getting started with practical AI coding, with image and audio classification as the main "hello world" applications.
 
 Day 2:
-* [Neural networks, part 2](LectureSlides/neural networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
+* [Neural networks, part 2](LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
 * [Audio exercises, part 1](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part1/UsingWavegan.md).
 
 Day 3:
-* [Neural networks, part 3](LectureSlides/neural networks_part3.pdf). Sequential problems like text prediction and generation.
+* [Neural networks, part 3](LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
 * [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)
 
 Day 4:
