@@ -30,8 +30,8 @@ Day 4:
 * Jupyter notebook exercise: [Abstract Adversarial Image Optimization Using CMA-ES](../Code/Jupyter/CMA-ES_Art.ipynb)
 
 Day 5:
-* [Optimization, part 2]((LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
-* [Optimization, part 3]((LectureSlides/optimization_part3.pdf). Optimizing action sequences through graph and tree search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
+* [Optimization, part 2](LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
+* [Optimization, part 3](LectureSlides/optimization_part3.pdf). Optimizing action sequences through graph and tree search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
 
 
 

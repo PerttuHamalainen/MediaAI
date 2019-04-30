@@ -1,5 +1,5 @@
 # Prerequisites
-Before you attend the class, you should go through the materials and instructions on this page. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
+Before you attend the class, you should go through the materials and instructions on this page. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer. *Software installation instructions are at the bottom of this page.*
 
 **Do the following**
 
@@ -51,14 +51,19 @@ If you plan to work on your own computer, you should install the software packag
 * [Unity](https://unity.com/), the world's most popular game engine, which we use for game AI
 * [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents), Unity's framework for training deep reinforcement learning Agents
 
+**How to reinstall if something is broken**
+Occasionally, you might get weird errors such as a missing dll at the ```import tensorflow as tf```statement at the start of a python file. In this case, you can try forcing a reinstall. Open Anaconda prompt, type ```activate MediaAI``` and then ```pip install --force-reinstall tensorflow```.
+
 **Important note about Unity ML Agents:**
 
 ML agents currently requires an older version of Tensorflow. Thus, you need to create a new Anaconda virtual environment for it and install Tensorflow again. Fortunately, Unity ML installs it for you together with the other dependencies, if you do the following:
 
 1.	Open Anaconda prompt
-2.	Type ```conda create --prefix <path> –n ml-agents python=3.6```, where you should replace ```<path>``` with a path where you want the environment files to reside. Note that on Aalto workstations, this should be on your network drive (z:) if you want the environment to not get deleted when you log out.
-3.	Type ```activate ml-agents```
+2.	Type ```conda create –n ml-agents python=3.6```. This creates an Anaconda environment, allowing you to install the specific Tensorflow and other package versions that Unity ML needs, without breaking your other projects. Note: if you are at an Aalto classroom Windows computer, you should instead use ```conda create –-prefix z:\ml-agents python=3.6``` because you can only install things on your own network folder (z:).
+3.	Type ```activate ml-agents``` or ```activate z:\ml-agents```, depending on what you did above.
 4.	go to a suitable folder, e.g., your Aalto home drive on the school computers ("z:")
 5.	Type ```git clone https://github.com/Unity-Technologies/ml-agents.git```
 6.	Type ```cd ml-agents-master/ml-agents```
 7.	Type ```pip install -e .```
+8.  Open the 3DBall scene in Unity, found in the ```unity-environment\Assets\ML-Agents\Examples\3DBall``` folder of the ML Agents repository that you cloned above.
+9.  Now, as explained in [Unity ML docs](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-ML-Agents.md), you should be able to type ```mlagents-learn 3DBall_trained``` at your Anaconda prompt and press play in Unity when you get the "Start training by pressing the Play button in the Unity Editor" message. 
