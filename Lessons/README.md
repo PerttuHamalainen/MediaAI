@@ -64,6 +64,8 @@ What to do with the skills and knowledge you gain on the course? Here are some p
 
 
 ## Links
-**The field is changing rapidly and we are constantly collecting new teaching material** Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for to stay updated.
+**The field is changing rapidly and we are constantly collecting new teaching material**
+
+Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) to stay updated.
 
 [Back to course home](../README.md)
