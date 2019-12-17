@@ -64,6 +64,6 @@ What to do with the skills and knowledge you gain on the course? Here are some p
 
 
 ## Links
-**The field is changing rapidly and this course is constantly evolving. We will keep adding relevant resources and materials below, gradually incorporating them to the lectures as well.** Thus, if you want to stay updated, check back at this page every now and then.
+**The field is changing rapidly and we are constantly collecting new teaching material** Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for to stay updated.
 
 [Back to course home](../README.md)
