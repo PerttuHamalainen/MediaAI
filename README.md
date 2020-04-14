@@ -13,7 +13,7 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 **2020 Coronavirus lockdown note:** Teaching and tutoring will happen through [Zoom](https://zoom.us). If you signed up, you should have the Zoom url in your email. We are not sharing the link here in public to avoid zoombombing.
 
 ## How to start?
-Syllabus and everything you need is here: [Lessons/README.md](Lessons/README.md). The material is designed to also support self-study.
+Syllabus and everything you need is here: [Syllabus.md](Syllabus.md). The material is designed to also support self-study.
 
 ## Learning goals
 The course covers AI and machine learning for games and audiovisual media.
@@ -22,7 +22,7 @@ The course covers AI and machine learning for games and audiovisual media.
 * Get hands-on practice of designing, implementing and/or using the tools.
 
 The first week of the course has introductory lectures, but the rest of the time is devoted to project work that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of initial skill levels (see below for the minimum requirements, though).
- 
+
 
 
 ## Grading
