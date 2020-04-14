@@ -9,7 +9,7 @@ Before you attend the class, you should go through the materials and instruction
 
 * Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills.
 
-* Optional: Install the software tools as instructed at the bottom of this page
+* Optional: Install the software tools as instructed at the bottom of this page.
 
 * Optional: Check out the awesome [Elements of AI](https://www.elementsofai.com/) course by University of Helsinki and Reaktor.
 
@@ -40,11 +40,15 @@ Processing and synthesis of other media:
 * [Hallucinating audio based on video](https://www.youtube.com/watch?v=flOevlA9RyQ)
 
 ## Software installation
-If you plan to work on your own computer, you should install the software packages below. These will be pre-installed on the classroom computers, on which students can't install anything on their own. NOTE: You can work on the Jupyter exercises on your own computer without installing anything, as they are also available through Aalto's browser-based Jupyter service.
+**Option 1: Don't install anything, just use Google Colab**: [Google Colab](https://colab.research.google.com) is a browser-based environment for developing and running machine learning code as [Jupyter Notebooks](https://jupyter.org/), which contain code interspersed with text explanations. All the Python exercises and tutorials of this course are available through Colab's Github integration: http://colab.research.google.com/github/PerttuHamalainen/MediaAI.
+
+Note: Colab let's you access Google's GPU:s and TPU:s for faster neural network training, but those are not always available. Colab Pro ensures access to hardware with a modest monthly fee. It's only available in the U.S. for now, but when it does become available in Europe, it's probably going to be the best option for real machine learning work on a student budget.
+
+**Option 2: I want to set up my own development environment:** If you plan to work on your own computer, you should install the software packages below.
 
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/community/) or [Visual Studio Code](https://code.visualstudio.com/) with Python support (check the install options). While many develop Python code with other IDEs like Spyder or Pycharm, Visual Studio is the recommended IDE for this course because it also works for any game AI experiments done in Unity C#.
 * [Anaconda](https://www.anaconda.com/distribution/) with Python 3.x. If you're using Windows, it's recommended to set the environment variable CONDA_ENVS_PATH to c:\CondaEnvs\ or something equally short; the default path is so long that installing some python packages like OpenAI Gym with MuJoCo will fail. After installing Anaconda, open the Anaconda command prompt and create a new virtual environment into which you'll install everything else by typing ```conda create MediaAI``` and then ```activate MediaAI```. This is important because if you want to use some open source deep learning code, chances are it will require different versions of some Python package. Using separate virtual environments for different projects allows you to have multiple versions of the packages.
-* [Tensorflow](https://www.tensorflow.org/), preferably with GPU support, which however requires some extra prerequisites like CUDA. With the prerequisites in place, you should be able to install Tensorflow by typing "pip install --ignore-installed --upgrade tensorflow-gpu" in the Anaconda prompt, with your MediaAI virtual environment. If you find the GPU support  installation too cumbersome or don't have at least an NVIDIA GeForce GTX 1050 or better graphics card, you can install the CPU version using ```pip install --ignore-installed --upgrade tensorflow```. However, this will train large neural networks much more slowly. For small networks and first experiments, the CPU version works fine.  
+* [Tensorflow](https://www.tensorflow.org/), preferably with GPU support, which however requires some extra prerequisites like CUDA. With the prerequisites in place, you should be able to install Tensorflow by typing ```pip install --ignore-installed --upgrade tensorflow-gpu==1.15``` in the Anaconda prompt, with your MediaAI virtual environment. If you find the GPU support  installation too cumbersome or don't have at least an NVIDIA GeForce GTX 1050 or better graphics card, you can install the CPU version using ```pip install --ignore-installed --upgrade tensorflow==1.15```. However, this will train large neural networks much more slowly. For small networks and first experiments, the CPU version works fine. **A note on Tensorflow versions:** In version 2, the Tensorflow API has changed significantly. All the Jupyter Notebooks of this course use Tensorflow 1, which is why the pip install commands above specify the version 1.15.
 * [Pillow](https://pillow.readthedocs.io/en/stable/). This is a Python package that helps in loading and saving images. Use ```pip install Pillow``` in the Anaconda prompt, with your MediaAI virtual environment activated.
 * [PyTorch](https://pytorch.org/) (optional). Although most of the exercises and a majority of open source AI & ML code use Tensorflow, PyTorch is a competing deep learning framework that has been gaining in popularity and is backed by Facebook research. PyTorch can be more beginner-friendly, which is why we include some examples of how the same things can be achieved using both Tensorflow and PyTorch.
 * [Jupyter](https://jupyter.org/). Jupyter is already included as part of Anaconda, but some extra tricks are needed to make it work with Anaconda virtual envs. In your Anaconda command prompt, with the MediaAI environment activated, type ```pip install ipykernel``` and then ```python -m ipykernel install --user --name=MediaAI```. Now, you should be able to run a Jupyter notebook test as ```jupyter notebook <notebookpath>```, where you replace <notebookpath> with, e.g., [this file](MyFirstMachineLearningModel.ipynb) from the code folder of this repository. (NOTE: If you click on the link, Github will render a static version of the notebook that you cannot edit.)
@@ -56,14 +60,8 @@ Occasionally, you might get weird errors such as a missing dll at the ```import 
 
 **Important note about Unity ML Agents:**
 
-ML agents currently requires an older version of Tensorflow. Thus, you need to create a new Anaconda virtual environment for it and install Tensorflow again. Fortunately, Unity ML installs it for you together with the other dependencies, if you do the following:
+ML agents installation instructions are here https://github.com/Unity-Technologies/ml-agents/blob/latest_release/docs/Installation.md. However, note that ML agents may require an older version of Tensorflow, which is why you should definitely use a dedicated Python virtual environment for it as follows, before the ```pip3 install mlagents``` step of the ML agents installation procedure.
 
 1.	Open Anaconda prompt
 2.	Type ```conda create –n ml-agents python=3.6```. This creates an Anaconda environment, allowing you to install the specific Tensorflow and other package versions that Unity ML needs, without breaking your other projects. Note: if you are at an Aalto classroom Windows computer, you should instead use ```conda create –-prefix z:\ml-agents python=3.6``` because you can only install things on your own network folder (z:).
 3.	Type ```activate ml-agents``` or ```activate z:\ml-agents```, depending on what you did above.
-4.	go to a suitable folder, e.g., your Aalto home drive on the school computers ("z:")
-5.	Type ```git clone https://github.com/Unity-Technologies/ml-agents.git```
-6.	Type ```cd ml-agents-master/ml-agents```
-7.	Type ```pip install -e .```
-8.  Open the 3DBall scene in Unity, found in the ```unity-environment\Assets\ML-Agents\Examples\3DBall``` folder of the ML Agents repository that you cloned above.
-9.  Now, as explained in [Unity ML docs](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-ML-Agents.md), you should be able to type ```mlagents-learn 3DBall_trained``` at your Anaconda prompt and press play in Unity when you get the "Start training by pressing the Play button in the Unity Editor" message. 

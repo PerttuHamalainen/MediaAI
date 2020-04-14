@@ -1,50 +1,53 @@
 # Getting started with AI and ML coding
 In this lesson, we'll cover the basic software tools:
 
-* Jupyter notebooks
-* Numpy, matplotlib (also: tensors!)
+* Jupyter notebooks & Google Colab
+* Numpy, Pandas, Matplotlib (also: tensors!)
 * Tensorflow
 * ml5js
 
-Make sure you have your software environment ready, either using a school computer with everything preinstalled, or installing the various packages on your computer, as instructed in [the course prerequisites](Prerequisites.md).
-
-**The exercises of this lesson are in the form of Jupyter notebooks (see below for more), except for ml5js. Each notebook ends with suggested modifications; implementing them verifies your learning.** We have provided model solutions in separate notebooks with the "solutions" suffix, in the same folder.
-
-After you've checked the notebooks and tried to implement the modifications, review the key takeaways listed below.
-
-## Lesson structure
-The lesson consists of a progression of Jupyter notebooks:
-
-* [Introduction to tensors, numpy and matplotlib](../Code/Jupyter/DataAndTensors.ipynb), the basic tools you need for any scientific computing.
-
-* [Training a very simple neural network](../Code/Jupyter/PredictWeight.ipynb)  using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight.
-
-* [Image classification](../Code/Jupyter/MNIST.ipynb), the bread-and-butter of neural networks.
-
-* [Sound classification](../Code/Jupyter/AudioMNIST.ipynb), to illustrate how processing audio can be done very similarly to images.
-
-* [Fooling the image classifier with adversarial images](../Code/Jupyter/AdversarialMNIST.ipynb). This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later.
-
-The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
-
+<!--Make sure you have your software environment ready, if you want to develop on  either using a school computer with everything preinstalled, or installing the various packages on your computer, as instructed in [the course prerequisites](Prerequisites.md).-->
 
 ## About Jupyter notebooks
-Jupyter notebooks are a standard pedagogical tool in machine learning. Once you have a Jupyter server running on your local machine or remotely, you can write and run Python code in a browser. This has the following benefits:
+**The exercises of this lesson are in the form of Jupyter notebooks (see below for more), except for ml5js.**
+
+Jupyter notebooks are a standard pedagogical tool in machine learning. They allow you to write and run Python code in a browser. This has the following benefits:
 
 * You can execute and edit code in small snippets, which can save time because you don't have to restart the whole program
 
 * Tutorial explanations and figures can be interleaved with code
 
-* The notebooks (.ipynb files) can be easily shared on Github, which renders them in the browser, including generated images. Note that these rendered versions are static, without any interactive features.
+* The notebooks (.ipynb files) can be easily shared on Google Colab (a Google Drive add-on) like other Google docs.
 
-On the other hand, the Jupyter interface lacks code autocompletion and other common productivity features, which is why most serious developers use tools like Visual Studio instead of Jupyter.
+On the other hand, Jupyter may become cumbersome for larger projects, in which case most developers use Integrated Development Environments (IDE:s) like Visual Studio or Pycharm.
 
-## Running the notebooks on your own computer
-You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
+## How to run the Notebooks
+There are 3 main ways to run the notebooks:
 
-## Running the notebooks on jupyter.cs.aalto.fi
-Alternatively, you can log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
+* **Hosted by Google Colab:** Just click on the links in the next section. *This is the currently recommended option.*
 
+* **Hosted by Aalto:** log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
+
+* **On your own computer:** Follow the software installation instructions here: https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/GettingStarted.md You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
+
+
+## Lesson structure
+The lesson consists of a progression of Jupyter notebooks. Each notebook ends with suggested modifications; implementing them verifies your learning. If you get stuck, you can take a peek at the model solutions.
+
+* Introduction to tensors, numpy and matplotlib, the basic tools you need for any scientific computing. [Open in Colab](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [Solutions](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
+
+* Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [Open in Colab](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [Solutions](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
+
+* Image classification, the bread-and-butter of neural networks. [Open in Colab](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [Solutions](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
+
+* Fooling the image classifier with adversarial images.  This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [Open in Colab](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb). TODO: provide solutions.
+
+* Sound classification, to illustrate how processing audio can be done very similarly to images. [Open in Colab](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). TODO: Provide a solution to the exercise.  
+
+
+The lesson focuses on [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
+
+After you've checked the notebooks and tried to implement the modifications, review the key takeaways below.
 
 
 ## Tensors, numpy, matplotlib key takeaways
@@ -69,7 +72,7 @@ Alternatively, you can log in to [Aalto's Jupyter service](https://jupyter.cs.aa
 ## ml5js, Tensorflow.js
 A recent alternative to Python is Javascript, using the [p5js](http://p5js.org/) and [ml5js](https://ml5js.org/) libraries. p5js is a Javascript Processing-inspired audiovisual coding framework, and m5js is a high-level wrapper for [Tensorflow.js](https://www.tensorflow.org/js). The [p5js web editor](https://editor.p5js.org/) allows you to start writing machine learning & Processing code in the browser, without installing anything. You can also [embed your scripts in an html file](https://github.com/tensorflow/tfjs-examples/tree/master/mnist), which however requires some additional code.
 
-[This p5js demo]() **TODO:** does the same as the human height & weight Jupyter notebook above. It should illustrate the similarities and differences between Python and Javascript.
+<!-- [This p5js demo]() **TODO:** does the same as the human height & weight Jupyter notebook above. It should illustrate the similarities and differences between Python and Javascript.-->
 
 On this course, students can choose whatever software tools and frameworks they prefer. If you are more experienced in Javascript than Python, it might be a good choice. In particular, p5js provides easy [interactive visualization](https://p5js.org/examples/) and a quite a wide palette of [sound synthesis tools](https://p5js.org/reference/#/libraries/p5.sound).
 
