@@ -34,7 +34,7 @@ The lessons each include lecture slides and/or exercises. The exercises are in t
 
 **Day 3:**
 * [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
-* Exercise: Generate and interpolate images using Google's BigGAN. [[Open in Colab]]("http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb),  [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
+* Exercise: Generate and interpolate images using Google's BigGAN. [Open in Colab]("http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb). If you get stuck, check the [Solutions](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
 
 
 **Day 4:**
