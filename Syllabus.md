@@ -28,8 +28,7 @@ The lessons each include lecture slides and/or exercises. The exercises are in t
 
 * Optional exercise: Fooling the image classifier with adversarial images.  This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb). TODO: provide solutions.
 
-* Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). TODO: Provide a solution to the exercise.  
-
+* Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb. Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
 
 **Day 3:**
