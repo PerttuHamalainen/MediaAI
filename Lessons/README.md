@@ -8,32 +8,51 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 ## Before the course
 * [Prerequisites](Prerequisites.md). Make sure you go through these before the course.
 
-## Lectures
-The lessons each include lecture slides and/or a page with key insights and exercises. The lectures primarily utilize image processing examples (more suitable for lecture slides) and audio applications are mostly covered in the exercises.
+## Course structure
+The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Jupyter_Colab_etc.md).
 
-Day 1:
-* [Introduction and motivation](LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
-* [Neural networks, part 1](LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
-* [Exercises](GettingStarted.md) Getting started with practical AI coding, with image and audio classification as the main "hello world" applications.
 
-Day 2:
+
+**Day 1:**
+* Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
+* Lecture: [Introduction and motivation](LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
+<!-- * Exercise: Processing images and audio as numbers. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb) -->
+* Exercise: Introduction to tensors, numpy and matplotlib, the basic tools you need for any scientific computing. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
+
+* Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
+
+
+**Day 2:**
+* Lecture: [Neural networks, part 1](LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
+* Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
+
+* Optional exercise: Fooling the image classifier with adversarial images.  This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb). TODO: provide solutions.
+
+* Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). TODO: Provide a solution to the exercise.  
+
+
+
+**Day 3:**
 * [Neural networks, part 2](LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
-* [Audio exercises, part 1](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part1/UsingWavegan.md).
+* Exercise: Generate and interpolate images using Google's BigGAN. [[Open in Colab]]("http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb),  [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
 
-Day 3:
+
+**Day 4:**
 * [Neural networks, part 3](LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
-* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)
+* Exercise: Finetune OpenAI's GPT-2 text model with custom text. (TODO)
+<!--* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)-->
 
-Day 4:
+**Day 5:**
 * [Optimization, part 1](LectureSlides/optimization_part1.pdf). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems, focusing on two key algorithms: Adam and CMA-ES.
-* Example: [Optimizing billiards trick shots in Unity](../Code/Unity/IntelligentPool)
-* Jupyter notebook exercise: [Abstract Adversarial Image Optimization Using CMA-ES](../Code/Jupyter/CMA-ES_Art.ipynb)
+* Exercise: [Abstract Adversarial Image Optimization Using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
+* Unity example (a Unity project folder that you can download and open in Unity): [Optimizing billiards trick shots in Unity](../Code/Unity/IntelligentPool)
 
-Day 5:
+**Day 6:**
 * [Optimization, part 2](LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
-* [Optimization, part 3](LectureSlides/optimization_part3.pdf). Optimizing action sequences through graph and tree search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
+* [Optimization, part 3](LectureSlides/optimization_part3.pdf). Optimizing action sequences through Monte Carlo Tree Search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
 
 
+Note: The Jupyter exercises above use [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
 
 ## Inspiration for further experiments
 *a.k.a. Heroes of Creative AI and ML coding*
