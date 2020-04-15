@@ -20,7 +20,7 @@ There are 3 main ways to run the notebooks:
 
 * **Hosted by Aalto:** log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
 
-* **On your own computer:** Follow the software installation instructions here: https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/GettingStarted.md You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
+* **On your own computer:** Follow the software installation instructions here: https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
 
 
 
