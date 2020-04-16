@@ -11,7 +11,7 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 ## Course structure
 The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
 
-
+Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
 **Day 1:**
 * Introduction: Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents

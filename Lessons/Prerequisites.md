@@ -9,6 +9,8 @@ Before you attend the class, you should go through the materials and instruction
 
 * Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills.
 
+* Optional: Learn Python basics, e.g., using [these resources](Python.md). You should be able to pick things up as we go, especially if you already know some other programming language, but some Python experience definitely makes things easier.
+
 * Optional: Install the software tools as instructed at the bottom of this page.
 
 * Optional: Check out the awesome [Elements of AI](https://www.elementsofai.com/) course by University of Helsinki and Reaktor.
@@ -38,6 +40,7 @@ Processing and synthesis of other media:
 * [Recurrent neural network writes music and novels](https://www.youtube.com/watch?v=Jkkjy7dVdaY&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=8&t=0s)
 * [Terrain generation](https://www.youtube.com/watch?v=NEscK5RCtlo&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=99&t=0s)
 * [Hallucinating audio based on video](https://www.youtube.com/watch?v=flOevlA9RyQ)
+
 
 ## Software installation
 **Option 1: Don't install anything, just use Google Colab**: [Google Colab](https://colab.research.google.com) is a browser-based environment for developing and running machine learning code as [Jupyter Notebooks](https://jupyter.org/), which contain code interspersed with text explanations. All the Python exercises and tutorials of this course are available through Colab's Github integration: http://colab.research.google.com/github/PerttuHamalainen/MediaAI.
