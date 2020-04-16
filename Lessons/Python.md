@@ -1,5 +1,7 @@
 ## Python learning resources
-Here's a collection of materials, assuming that some students come from a programming background, while some might be more familiar with art tools like Blender, Houdini, or Maya.
+Here's a collection of materials, assuming that some students come from a programming background, while some might be more familiar with tools like Blender, Houdini, Maya, or Unity and C#
+
+ * Interactive browser-based tutorial: https://www.learnpython.org/en/Hello%2C_World%21
 
  * A comprehensive guide http://openbookproject.net/thinkcs/python/english3e/index.html
 
@@ -17,5 +19,5 @@ Here's a collection of materials, assuming that some students come from a progra
 
 
  [Back to Syllabus](../Syllabus.md)
- 
+
  [Back to Prerequisites](Prerequisites.md)
