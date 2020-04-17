@@ -17,6 +17,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 * Introduction: Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
 * Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
 * Exercise: Introduction to tensors, numpy and matplotlib through processing images and audio. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio_solutions.ipynb)
+* Related to the above, see also: https://numpy.org/devdocs/user/absolute_beginners.html
 * Exercise: Continuing the Numpy introduction, now for a simple data science project. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
 
 * Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
@@ -38,7 +39,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 4:**
 * [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
-* Exercise: Finetune OpenAI's GPT-2 text model with custom text. (TODO)
+* Exercise: Train a Char-RNN model with text. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/Char_rnn.ipynb). You can also try [finetuning a GPT-2](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce) for better results, but that's probably going to take several hours and requires a Colab GPU runtime, which may or may not be available.
 <!--* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)-->
 
 **Day 5:**
