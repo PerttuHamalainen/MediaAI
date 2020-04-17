@@ -51,12 +51,16 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 * [Optimization, part 2](Lessons/LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
 * [Optimization, part 3](Lessons/LectureSlides/optimization_part3.pdf). Optimizing action sequences through Monte Carlo Tree Search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
 
-**The rest of the time:** Project work that students can do either alone or in groups.
 
-**Note:** The Jupyter exercises above use [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!
+<!--**Note:** The Jupyter exercises above use [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!-->
+
+## Project work ##
+The lectures and exercises should only take about half of the time. The rest of the time is for project work that students can do either alone or in groups. You pass the course by submitting a report of the project (details in the lecture slides).
+
+Students can choose their project topics based on their own interests and learning goals. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, using (supposedly) artist-friendly tools like [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using https://theselyricsdonotexist.com/, and use them to compose and record a song.
 
 ## Colab/Jupyter notebooks by others ##
-These can provide starting points for your course projects. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
+These can provide starting points for your project work. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
 
 NOTE: if you get weird errors when running these on Colab, try adding ```%tensorflow_version 1.x``` to the beginning of the notebook, then select "Restart and run all" from the Runtime menu. Colab recently switched to Tensorflow 2 by default, but many of these notebooks precede the switch.
 
