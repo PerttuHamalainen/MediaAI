@@ -11,6 +11,8 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 ## Course structure
 The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
 
+*Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help. 
+
 Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
 **Day 1:**
@@ -55,7 +57,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 <!--**Note:** The Jupyter exercises above use [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!-->
 
 ## Project work ##
-The lectures and exercises should only take about half of the time. The rest of the time is for project work that students can do either alone or in groups. You pass the course by submitting a report of the project (details in the lecture slides).
+The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You pass the course by submitting a report of the project (details in the lecture slides).
 
 Students can choose their project topics based on their own interests and learning goals. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, using (supposedly) artist-friendly tools like [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using https://theselyricsdonotexist.com/, and use them to compose and record a song.
 
