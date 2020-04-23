@@ -11,7 +11,7 @@ Here's all you needed for your first few weeks of creative AI and ML experiments
 ## Course structure
 The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
 
-*Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help. 
+*Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help.
 
 Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
@@ -88,11 +88,17 @@ NOTE: if you get weird errors when running these on Colab, try adding ```%tensor
 
 * [Google AI Hub notebooks](https://aihub.cloud.google.com/s?category=notebook&order=3)
 
+* A large repository of Jupyter notebook implementations of deep learning models (may or may not work on Colab): https://github.com/rasbt/deeplearning-models
+
+
+## Projects by students of this course
+
+Coming up soon...
 
 ## Inspiration for further experiments
 *a.k.a. Heroes of Creative AI and ML coding*
 
-What to do with the skills and knowledge you gain on the course? Here are some people who are mixing AI, machine learning, art, and design with awesome results:
+Here are some people who are mixing AI, machine learning, art, and design with awesome results:
 
 * http://otoro.net/ml/
 * http://genekogan.com/
@@ -120,6 +126,6 @@ What to do with the skills and knowledge you gain on the course? Here are some p
 ## Links
 **The field is changing rapidly and we are constantly collecting new teaching material**
 
-Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) to stay updated.
+Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) to stay updated. The twitter works as a public backlog of material that is used when updating the lecture slides.
 
 [Back to course README](README.md)
