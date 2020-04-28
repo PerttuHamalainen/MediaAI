@@ -1,5 +1,6 @@
 # Syllabus and materials
 ![Images generated using GanBreeder](Lessons/Media/GanBreederWide128.png)
+<!--![Some examples of content covered](Lessons/Media/github_preview.jpg)-->
 
 (*Images created using [GanBreeder](https://ganbreeder.app/)*)
 
@@ -87,6 +88,8 @@ NOTE: if you get weird errors when running these on Colab, try adding ```%tensor
 * [12 Colab notebooks that matter](https://towardsdatascience.com/12-colab-notebooks-that-matter-e14ce1e3bdd0).
 
 * [Google AI Hub notebooks](https://aihub.cloud.google.com/s?category=notebook&order=3)
+
+* [Pix2Pix example](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb#scrollTo=ITZuApL56Mny)
 
 * A large repository of Jupyter notebook implementations of deep learning models (may or may not work on Colab): https://github.com/rasbt/deeplearning-models
 

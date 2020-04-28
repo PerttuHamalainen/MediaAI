@@ -1,10 +1,11 @@
-
-# Intelligent Computational Media
+<!--
 ![Images generated using GanBreeder](Lessons/Media/GanBreederWide128.png)
+(*Images created using [GanBreeder](https://ganbreeder.app/)*) -->
+![Some examples of content covered](Lessons/Media/github_preview.jpg)
+# Intelligent Computational Media
+*Machine Learning & AI for media, art, and design*
 
-(*Images created using [GanBreeder](https://ganbreeder.app/)*)
-
-This repository contains the lecture materials and examples for [Aalto University]()'s Intelligent Computational Media course, instructed by [Perttu Hämäläinen](http://perttu.info).
+This repository contains the lectures and materials of [Aalto University](https://aalto.fi)'s Intelligent Computational Media course instructed by [Perttu Hämäläinen](http://perttu.info).
 
 Check [MyCourses](https://mycourses.aalto.fi/course/search.php?search=intelligent+computational+media#menu4) to see when the course is run for the next time!
 
