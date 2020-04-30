@@ -60,9 +60,9 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 ## Project work ##
 The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You pass the course by submitting a report of the project (details in the lecture slides).
 
-Students can choose their project topics based on their own interests and learning goals. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, using (supposedly) artist-friendly tools like [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using https://theselyricsdonotexist.com/, and use them to compose and record a song.
+Students can choose their project topics based on their own interests and learning goals. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using https://theselyricsdonotexist.com/, and use them to compose and record a song.
 
-## Colab/Jupyter notebooks by others ##
+## Colab/Jupyter notebooks and other tools ##
 These can provide starting points for your project work. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
 
 NOTE: if you get weird errors when running these on Colab, try adding ```%tensorflow_version 1.x``` to the beginning of the notebook, then select "Restart and run all" from the Runtime menu. Colab recently switched to Tensorflow 2 by default, but many of these notebooks precede the switch.
@@ -93,6 +93,9 @@ NOTE: if you get weird errors when running these on Colab, try adding ```%tensor
 
 * A large repository of Jupyter notebook implementations of deep learning models (may or may not work on Colab): https://github.com/rasbt/deeplearning-models
 
+* [Deepfake tools](https://vuild.com/deep-fake-tools) (face swapping for images and video)
+
+* [Machine learning plugins for GIMP](https://github.com/kritiksoman/GIMP-ML)
 
 ## Projects by students of this course
 

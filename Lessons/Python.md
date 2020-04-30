@@ -3,6 +3,8 @@ Here's a collection of materials, assuming that some students come from a progra
 
  * Interactive browser-based tutorial: https://www.learnpython.org/en/Hello%2C_World%21
 
+ * A set of tutorials in Colab (the environment used also on this course): https://github.com/computationalcore/introduction-to-python
+
  * A comprehensive guide http://openbookproject.net/thinkcs/python/english3e/index.html
 
  * Python to C# cheat sheet: https://gist.github.com/DanielKoehler/606b022ec522a67a0cf3
