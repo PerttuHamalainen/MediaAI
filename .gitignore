@@ -34,3 +34,15 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# IntelliJ IDEs
+.idea
+
+# Virutalenv
+venv
+
+# Generated folders
+*/*/temp
+
+# Jupyter checkpoints
+*/*/.ipynb_checkpoints
