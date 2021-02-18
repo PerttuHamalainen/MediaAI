@@ -46,13 +46,11 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 <!--* [Audio exercises, part 2](https://github.com/SopiMlab/DeepLearningWithAudio/blob/master/ICM_Audio/AudioExercises_part2/AudioClassification.md)-->
 
 **Day 5:**
-* [Optimization, part 1](Lessons/LectureSlides/optimization_part1.pdf). Pretty much all AI and ML is some form of (mathematical) optimization. We've already applied it when training neural networks; now it's the time to get a bit wider and deeper understanding. This first part deals with continuous-valued problems, focusing on two key algorithms: Adam and CMA-ES.
-* Exercise: [Abstract Adversarial Image Optimization Using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
-* Unity example (a Unity project folder that you can download and open in Unity): [Optimizing billiards trick shots in Unity](Code/Unity/IntelligentPool)
+* [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL), Monte Carlo Tree Search (MCTS), and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
+* Exercise: [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
+* Unity example (a Unity project folder that you can download and open in Unity): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool)
 
-**Day 6:**
-* [Optimization, part 2](Lessons/LectureSlides/optimization_part2.pdf). This part of the optimization lecture explains Deep Reinforcement Learning, building on the visual and geometric intuitions of CMA-ES.
-* [Optimization, part 3](Lessons/LectureSlides/optimization_part3.pdf). Optimizing action sequences through Monte Carlo Tree Search, which provides an alternative to Deep RL, especially if there is a finite set of possible actions, e.g., gamepad buttons to press.  
+
 
 
 <!--**Note:** The Jupyter exercises above use [Tensorflow](https://www.tensorflow.org/), which is the currently dominant deep learning library, although [PyTorch](https://pytorch.org/) is gaining in popularity. Those interested are encouraged to port the exercises to PyTorch!-->
