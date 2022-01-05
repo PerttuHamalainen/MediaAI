@@ -4,7 +4,7 @@
 
 This repository contains the lectures and materials of Aalto University's Intelligent Computational Media course.
 
-Follow the course's Twitter feed for links and resources.
+Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links and resources.
 
 **2022 Coronavirus note:** we wait for further instructions but at present, the course will likely be held in hybrid mode or fully online (Zoom).
 
