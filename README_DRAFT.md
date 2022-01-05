@@ -12,7 +12,7 @@ Follow the course's Twitter feed for links and resources.
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
 
-The 2022 edition of this course will be taught over a **three week period** by the course leader **Prof Perttu Hämäläinen**, as well as **Dr Christian Guckelsberger** and **Nam-Hee Gordon Kim.** Inquiries to: perttu.hamalainen[at]aalto.fi. 
+The 2022 edition of this course will be taught over a **three week period** by the course leader **Prof Perttu Hämäläinen**, as well as **Dr Christian Guckelsberger** and **Nam-Hee Gordon Kim.** Registeration through mycourses.aalto.fi, specific inquiries to: perttu.hamalainen[at]aalto.fi (but please check the info below first). 
 
 ### Materials
 
