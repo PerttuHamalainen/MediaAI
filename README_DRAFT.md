@@ -17,7 +17,7 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
 
-The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam-Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi)  mycourses.aalto.fi, specific inquiries to: perttu.hamalainen[at]aalto.fi (but please check the info below first). 
+The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam-Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but please check the info below first). 
 
 ### Materials
 
