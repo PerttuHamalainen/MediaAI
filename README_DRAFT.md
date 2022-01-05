@@ -2,6 +2,12 @@
 
 ![Some examples of content covered](Lessons/Media/github_preview.jpg)
 
+This repository contains the lectures and materials of Aalto University's Intelligent Computational Media course.
+
+Follow the course's Twitter feed for links and resources.
+
+**2022 Coronavirus note:** we wait for further instructions but at present, the course will likely be held in hybrid mode or fully online (Zoom).
+
 ## Course Overview & Design Philosophy
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
@@ -14,7 +20,9 @@ The course is taught through:
 
 - Lectures
 - Software examples
-- Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are
+- Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are left to the students to accomplish and can also become the final project.
+
+This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students will be able to reach course staff through **Discord**. 
 
 ### Learning Goals
 
@@ -31,11 +39,11 @@ The goal is for students to:
 
 ### Grading / Project Work
 
-The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You **pass the course** by submitting a report of the project (details in the lecture slides).
+The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You **pass the course** by submitting a report of the project (details in the lecture slides). 
 
 Grading is **primarily based on the student projects** which should demonstrate personal learning/development and be clearly documented  using images, video, and short textual description. The project documentation is **to be submitted through [MyCourses](http://mycourses.aalto.fi)**. It is also recommended to make the project publicly available, e.g., as a Github repository. You may simply submit a link to the repository, if the repository contains the needed documentation.
 
-Students can choose their **project topics** based on their own interests and learning goals. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
+Students can choose their **project topics** based on their own interests and learning goals. Projects are **agreed on** with the lecturers in individual tutoring sessions. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
 
 ### Comparison to other courses
 
@@ -73,7 +81,7 @@ There will be **lectures on 12 mornings from Tue-Fri**, and the remaining time i
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
 | Week 1 | - | Lecture: Overview | Lecture: Neural Network Basics | Lecture: Image Generation | Buffer |
-| Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: AI Playtesting | Lecture: Comp. Creativity |
+| Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: AI Playtesting | Lecture: Computational Creativity |
 | Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
 
 The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
