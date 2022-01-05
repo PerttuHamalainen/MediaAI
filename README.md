@@ -40,7 +40,7 @@ The focus is on **media processing and games**, which makes this particularly su
 The lessons and materials comprise three parts:
 * Lectures
 * Software examples
-* Exercises that require you to modify the sofware examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are
+* Exercises that require you to modify the sofware examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are left to the students to accomplish and can also become the final project.
 
 NOTE: The visual pedagogy is heavily inspired by Bret Victor's [Kill Math Project](http://worrydream.com/KillMath/). Although advanced math is needed to prove things like the optimality of an algorithm, many AI methods are born out of visual intuitions. It is unfortunate that researchers must then encode these intuitions as math, which imposes on the reader the burden of decoding back to intuitions and understanding. Fortunately, this is slowly changing with new "visually enhanced" publication venues like [Distill](https://distill.pub/2017/momentum/).
 
