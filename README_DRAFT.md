@@ -1,6 +1,11 @@
 # Intelligent Computational Media
 
+<!--
 ![Some examples of content covered](Lessons/Media/github_preview.jpg)
+-->
+![Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model](Lessons/Media/clip_256_wide.jpg)
+
+*Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model*
 
 This repository contains the lectures and materials of Aalto University's Intelligent Computational Media course.
 
@@ -12,7 +17,7 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
 
-The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by the course leader **Prof Perttu Hämäläinen**, as well as **Dr Christian Guckelsberger** and **Nam-Hee Gordon Kim.** Registeration through mycourses.aalto.fi, specific inquiries to: perttu.hamalainen[at]aalto.fi (but please check the info below first). 
+The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam-Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through mycourses.aalto.fi, specific inquiries to: perttu.hamalainen[at]aalto.fi (but please check the info below first). 
 
 ### Materials
 
@@ -65,10 +70,6 @@ Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F
 - We have more practical exercises; this is a good follow-up if you've already taken that course.
 
 ## Syllabus
-
-![Some examples of content covered](Lessons/Media/clip_256_wide.jpg)
-
-*Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model*
 
 ### Before the Course
 
@@ -168,10 +169,6 @@ NOTE: if you get weird errors when running these on Colab, try adding `%tensorfl
 - A large repository of Jupyter notebook implementations of deep learning models (may or may not work on Colab): [https://github.com/rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)
 - [Deepfake tools](https://vuild.com/deep-fake-tools) (face swapping for images and video)
 - [Machine learning plugins for GIMP](https://github.com/kritiksoman/GIMP-ML)
-
-### Projects by Students of This Course
-
-Coming up soon...
 
 ### Inspiration for Further Experiments
 
