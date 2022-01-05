@@ -76,18 +76,18 @@ There will be **lectures on 12 mornings from Tue-Fri**, and the remaining time i
 | Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: AI Playtesting | Lecture: Comp. Creativity |
 | Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
 
-The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](notion://www.notion.so/Lessons/Jupyter_Colab_etc.md).
+The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
 
 *Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help.
 
-Since most of the exercises are in Python, these [Python learning resources](notion://www.notion.so/Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
+Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
 **Week 1 (Tue 01.02 - Fri 04.02.)**
 
 **Day 1 / Tue (Overview and Motivation — Perttu Hämäläinen):**
 
 - Introduction: Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
-- Lecture: [Overview and motivation](notion://www.notion.so/Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
+- Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
 - Exercise: Introduction to tensors, numpy and matplotlib through processing images and audio. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio_solutions.ipynb)
 - Related to the above, see also: [https://numpy.org/devdocs/user/absolute_beginners.html](https://numpy.org/devdocs/user/absolute_beginners.html)
 - Exercise: Continuing the Numpy introduction, now for a simple data science project. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
@@ -95,14 +95,14 @@ Since most of the exercises are in Python, these [Python learning resources](not
 
 **Day 2 / Wed (Neural Networks Basics — Perttu Hämäläinen):**
 
-- Lecture: [Neural networks, part 1](notion://www.notion.so/Lessons/LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
+- Lecture: [Neural networks, part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
 - Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
 - Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb). **TODO Perttu: provide solutions.**
-- Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](notion://www.notion.so/Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
+- Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
 **Day 3 / Thu (Image Generation Models — Nam-Hee Gordon Kim):**
 
-- Lecture: [Neural networks, part 2](notion://www.notion.so/Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination? **TODO Nam-Hee: Update.**
+- Lecture: [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination? **TODO Nam-Hee: Update.**
 - Exercise: **TODO Nam-Hee: Develop exercise and link material here.**
 
 **Day 4 / Fri** **(Lecture Buffer / Exercises or Project Work):**
@@ -114,14 +114,14 @@ Since most of the exercises are in Python, these [Python learning resources](not
 
 **Day 5 / Tue** **(Text Prediction and Generation Models — Perttu Hämäläinen):**
 
-- Lecture: [Neural networks, part 3](notion://www.notion.so/Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation. **TODO Perttu: Update slides with GPT stuff, maybe providing state-of-the-art examples from paper with Jeppe (questionnaires) or Susanna (quests)?**
+- Lecture: [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation. **TODO Perttu: Update slides with GPT stuff, maybe providing state-of-the-art examples from paper with Jeppe (questionnaires) or Susanna (quests)?**
 - Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/overview) **TODO Perttu: Adjust?**
 
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
-- Lecture: [Optimization](notion://www.notion.so/Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL), Monte Carlo Tree Search (MCTS), and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
+- Lecture: [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL), Monte Carlo Tree Search (MCTS), and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
 - Exercise: [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
-- Unity example (a Unity project folder that you can download and open in Unity): [Discovering billiards trick shots in Unity](notion://www.notion.so/Code/Unity/IntelligentPool)
+- Unity example (a Unity project folder that you can download and open in Unity): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool)
 
 **Day 7 / Thu (AI Playtesting — Christian Guckelsberger)**
 
