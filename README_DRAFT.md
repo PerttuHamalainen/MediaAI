@@ -1,8 +1,6 @@
 # Intelligent Computational Media (01.02.-18.02.2022)
 
-![clip_images.png](Intelligent%20Computational%20Media%20(01%2002%20-18%2002%202022%20cc53bf3ee10242bbb1ecb44d464a770b/clip_images.png)
-
-*Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model*
+![Some examples of content covered](Lessons/Media/github_preview.jpg)
 
 ## Overview & Design Philosophy
 
@@ -59,6 +57,10 @@ Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F
 - We have more practical exercises; this is a good follow-up if you've already taken that course.
 
 ## Syllabus
+
+![Some examples of content covered](Lessons/Media/clip_256_wide.jpg)
+
+*Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model*
 
 ### Before the Course
 
