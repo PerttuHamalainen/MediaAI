@@ -17,7 +17,7 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
 
-The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam-Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first). 
+The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first). 
 
 ### Materials
 
@@ -113,7 +113,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 - Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb).
 - Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
-**Day 3 / Thu (Image Generation Models — Nam-Hee Gordon Kim):**
+**Day 3 / Thu (Image Generation Models — Nam Hee Gordon Kim):**
 
 - Lecture: [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
 - Exercise: TBD. 
