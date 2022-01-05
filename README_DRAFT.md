@@ -75,7 +75,7 @@ Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F
 
 Make sure you go through the materials and instructions on [this page](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md) before the course. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer. 
 
-### Course Structure
+### Course Structure Overview
 
 There will be **lectures on 12 mornings from Tue-Fri**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
 
@@ -90,6 +90,10 @@ The lessons each include lecture slides and/or exercises. The exercises are in t
 *Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help.
 
 Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
+
+### Detailed Course Structure
+
+**DISCLAIMER**: The lecture slides are typically updated during each run of the course. Thus, if you download them before the course, you should re-download after the lecture has taken place.
 
 **Week 1 (Tue 01.02 - Fri 04.02.)**
 
@@ -106,13 +110,13 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Lecture: [Neural networks, part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
 - Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
-- Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb). **TODO Perttu: provide solutions.**
+- Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb).
 - Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
 **Day 3 / Thu (Image Generation Models — Nam-Hee Gordon Kim):**
 
-- Lecture: [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination? **TODO Nam-Hee: Update.**
-- Exercise: **TODO Nam-Hee: Develop exercise and link material here.**
+- Lecture: [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
+- Exercise: TBD. 
 
 **Day 4 / Fri** **(Lecture Buffer / Exercises or Project Work):**
 
@@ -123,8 +127,8 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 5 / Tue** **(Text Prediction and Generation Models — Perttu Hämäläinen):**
 
-- Lecture: [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation. **TODO Perttu: Update slides with GPT stuff, maybe providing state-of-the-art examples from paper with Jeppe (questionnaires) or Susanna (quests)?**
-- Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/overview) **TODO Perttu: Adjust?**
+- Lecture: [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
+- Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/overview)
 
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
@@ -134,12 +138,12 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 7 / Thu (AI Playtesting — Christian Guckelsberger)**
 
-- Lecture: What is AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game. **TODO Christian: Upload slides.**
-- Exercise: Validate goal reachability in a simple, procedurally generated game **TODO Christian: Add Colab and Solutions.**
+- Lecture: What is AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game. 
+- Exercise: Validate goal reachability in a simple, procedurally generated game.
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
 
-- Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems. **TODO Christian: Upload slides.**
+- Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
 - Exercise: Evaluate a system presented in the course based on a framework of your choice.
 
  
