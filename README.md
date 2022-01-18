@@ -1,5 +1,4 @@
 # AI for Media, Art & Design (Aka "Intelligent Computational Media")
-**Previously known as "Intelligent Computational Media"**
 
 <!--
 ![Some examples of content covered](Lessons/Media/github_preview.jpg)
