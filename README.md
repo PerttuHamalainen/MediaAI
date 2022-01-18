@@ -1,4 +1,4 @@
-# AI for Media, Art and Design 
+# AI for Media, Art & Design (Aka "Intelligent Computational Media")
 **Previously known as "Intelligent Computational Media"**
 
 <!--
