@@ -27,7 +27,7 @@ The course is taught through:
 - Software examples
 - Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are left to the students to accomplish and can also become the final project.
 
-This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students will be able to reach course staff through **Discord** (an invitation will be send to registered students). 
+This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students). 
 
 ### Learning Goals
 
@@ -77,7 +77,7 @@ Make sure you go through the materials and instructions on [this page](https://g
 
 ### Course Structure Overview
 
-There will be **lectures on 12 mornings from Tue-Fri**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
+There will be **lectures on 7+ mornings from Tue-Fri**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
 
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
