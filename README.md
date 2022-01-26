@@ -125,7 +125,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Week 2 (Tue 08.02 - Fri 11.02.)**
 
-**Day 5 / Tue** **(Text Prediction and Generation Models — Perttu Hämäläinen):**
+**Day 5 / Tue** **(Text Prediction and Generation Models — Christian Guckelsberger):**
 
 - Lecture: [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
 - Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/overview)
