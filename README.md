@@ -77,7 +77,7 @@ Make sure you go through the materials and instructions on [this page](https://g
 
 ### Course Structure Overview
 
-There will be **lectures on 7+ mornings from Tue-Fri**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
+There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15-12h**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
 
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
