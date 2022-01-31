@@ -82,7 +82,7 @@ There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
 | Week 1 | - | Lecture: Overview | Lecture: Neural Network Basics | Lecture: Image Generation | Buffer |
-| Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: AI Playtesting | Lecture: Computational Creativity |
+| Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: Game AI | Lecture: Computational Creativity |
 | Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
 
 The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
@@ -136,9 +136,9 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 - Exercise: [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
 - Unity example (a Unity project folder that you can download and open in Unity): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool)
 
-**Day 7 / Thu (AI Playtesting — Christian Guckelsberger)**
+**Day 7 / Thu (Game AI — Christian Guckelsberger)**
 
-- Lecture: What is AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game. 
+- Lecture: What are the core areas of videogame AI? Focus: combinining game AI for AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game. 
 - Exercise: Validate goal reachability in a simple, procedurally generated game.
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
