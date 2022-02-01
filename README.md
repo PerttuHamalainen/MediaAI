@@ -132,8 +132,8 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 5 / Tue** **(Text Prediction and Generation Models — Christian Guckelsberger):**
 
-- Lecture: [Neural networks, part 3](Lessons/LectureSlides/neural_networks_part3.pdf). Sequential problems like text prediction and generation.
-- Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/overview)
+- Lecture: Natural Language Generation for Creative Applications. Introduction to natural language models, overview of model evolution, the Transformer architecture, GPT-3 hands-on exercises, applications and risks.
+- Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/playground)
 
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
@@ -150,7 +150,6 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
 - Exercise: Evaluate a system presented in the course based on a framework of your choice.
-
  
 
 **Week 3 (Tue 15.02 - Fri 18.02.)**
