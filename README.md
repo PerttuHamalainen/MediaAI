@@ -110,8 +110,12 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
 - [Perttu's Old Slides, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
-- Demos:
+- Demos: 
+  * [Demo 1: Inference](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo1-inference.ipynb)
+  * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
+  * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
 - Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
+- Exercise: Using a Pre-Trained Generative Adversarial Network. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
 - Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb).
 - Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
