@@ -106,17 +106,22 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 - Exercise: Continuing the Numpy introduction, now for a simple data science project. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
 - Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
 
-**Day 2 / Wed (Neural Networks Basics — Perttu Hämäläinen):**
+**Day 2 / Wed (Neural Networks Basics — Nam Hee Gordon Kim):**
 
-- Lecture: [Neural networks, part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics of neural networks, focusing on discriminative models like image classification.
+- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
+- [Perttu's Old Slides, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
+- Demos:
 - Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
 - Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb).
 - Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
 **Day 3 / Thu (Image Generation Models — Nam Hee Gordon Kim):**
 
-- Lecture: [Neural networks, part 2](Lessons/LectureSlides/neural_networks_part2.pdf). From discriminative to generative models like GANs. How to imbue computers with audiovisual imagination?
-- Exercise: TBD. 
+- Lecture: [Neural Networks: Tools and Principles, Part 2](Lessons/LectureSlides/neural_networks_part2.pdf). Generative adversarial networks (GANs), diffusion models, general-purpose text/image encoders e.g. CLIP.
+- [Perttu's Old Slides, Part 2](Lessons/LectureSlides/neural_networks_part2.pdf)
+- Exercise: CLIP-Guided Image Retrieval and Synthesis
+- Optional exercise: Fine-tuning CLIP
+- Optional exercise: Training a Projected GAN from scratch
 
 **Day 4 / Fri** **(Lecture Buffer / Exercises or Project Work):**
 
