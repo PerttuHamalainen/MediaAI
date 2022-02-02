@@ -115,7 +115,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
   * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
   * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
 - Exercise: Image classification (optional). [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
-- Exercise: Using a Pre-Trained Generative Adversarial Network. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
+- Exercise: Using a Pre-Trained Generative Adversarial Network (GAN) to generate images. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
 
 **Day 3 / Thu (Image Generation Models — Nam Hee Gordon Kim):**
 
