@@ -112,7 +112,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 2 / Wed (Neural Networks Basics — Nam Hee Gordon Kim):**
 
-- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
+- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1_nhgk.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
 - [Perttu's Old Slides, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
 - Demos:
   * [Demo 1: Inference](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo1-inference.ipynb)
