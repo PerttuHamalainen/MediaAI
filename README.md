@@ -19,16 +19,6 @@ This is a hands-on, project-based crash course for deep learning and other AI te
 
 The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first).
 
-### Materials
-
-The course is taught through:
-
-- Lectures
-- Software examples
-- Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are left to the students to accomplish and can also become the final project.
-
-This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students).
-
 ### Learning Goals
 
 The goal is for students to:
@@ -37,18 +27,32 @@ The goal is for students to:
 - understand what the tools can be used for in context of art, media, and design, and
 - get hands-on practice of designing, implementing and/or using the tools.
 
+### Materials and pedagogical approach
+
+The course is taught through:
+
+- Lectures
+- Software examples
+- Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones.
+- Final project on topics based on each student's interests. This can also be done in pairs.  
+
+The lectures provide brief introductions to a selection of topics, and most of the time is devoted to the exercises and project work. These are supported through individual tutoring both in class and using Zoom breakout rooms.  
+
+Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students).
+
 ### Student Prerequisites
 
 - Basic programming skills (e.g., some python, processing, or Unity C#). We don't expect much, but the exercises can be challenging without some knowledge of things like variables, loops, and arrays
+
 - Basic high-school math. We focus on visual explanations that are enough to understand why and how various AI methods work.
 
 ### Grading / Project Work
 
-The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You **pass the course** by submitting a report of the project (details in the lecture slides).
+You **pass the course** by submitting a report of the project (details in the lecture slides). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
 
-Grading is **primarily based on the student projects** which should demonstrate personal learning/development and be clearly documented  using images, video, and short textual description. The project documentation is **to be submitted through [MyCourses](http://mycourses.aalto.fi)**. It is also recommended to make the project publicly available, e.g., as a Github repository. You may simply submit a link to the repository, if the repository contains the needed documentation.
+The project documentation is **to be submitted through [MyCourses](http://mycourses.aalto.fi)**. It is also recommended to make the project publicly available, e.g., as a Colab notebook or Github repository. You may simply submit a link to the notebook or repository, if they containthe needed documentation.
 
-Students can choose their **project topics** based on their own interests and learning goals. Projects are **agreed on** with the lecturers in individual tutoring sessions. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
+Students can choose their **project topics** based on their own interests and learning goals. Projects are **agreed on** with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
 
 ### Comparison to other courses
 
