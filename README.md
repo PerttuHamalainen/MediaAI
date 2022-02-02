@@ -15,9 +15,9 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 
 ## Course Overview & Design Philosophy
 
-This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**. 
+This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**.
 
-The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first). 
+The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first).
 
 ### Materials
 
@@ -27,7 +27,7 @@ The course is taught through:
 - Software examples
 - Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones, but some of the advanced exercises are left to the students to accomplish and can also become the final project.
 
-This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students). 
+This is accompanied with individual and repeating **one-on-one tutoring sessions** that students will be invited to. Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students).
 
 ### Learning Goals
 
@@ -39,12 +39,12 @@ The goal is for students to:
 
 ### Student Prerequisites
 
-- Basic programming skills (e.g., some python, processing, or Unity C#)
+- Basic programming skills (e.g., some python, processing, or Unity C#). We don't expect much, but the exercises can be challenging without some knowledge of things like variables, loops, and arrays
 - Basic high-school math. We focus on visual explanations that are enough to understand why and how various AI methods work.
 
 ### Grading / Project Work
 
-The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You **pass the course** by submitting a report of the project (details in the lecture slides). 
+The lectures and exercises should only take about half of the time, and there's no need to complete all the exercises. The rest of the time is for project work that students can do either alone or in groups. You **pass the course** by submitting a report of the project (details in the lecture slides).
 
 Grading is **primarily based on the student projects** which should demonstrate personal learning/development and be clearly documented  using images, video, and short textual description. The project documentation is **to be submitted through [MyCourses](http://mycourses.aalto.fi)**. It is also recommended to make the project publicly available, e.g., as a Github repository. You may simply submit a link to the repository, if the repository contains the needed documentation.
 
@@ -73,11 +73,11 @@ Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F
 
 ### Before the Course
 
-Make sure you go through the materials and instructions on [this page](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md) before the course. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer. 
+Make sure you go through the materials and instructions on [this page](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md) before the course. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
 
 ### Course Structure Overview
 
-There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15-12h**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below: 
+There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15-12h**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below:
 
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15
 | Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: Game AI | Lecture: Computational Creativity |
 | Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
 
-The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks, and the links below open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
+The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks (details: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
 
 *Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help.
 
@@ -110,14 +110,12 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
 - [Perttu's Old Slides, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
-- Demos: 
+- Demos:
   * [Demo 1: Inference](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo1-inference.ipynb)
   * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
   * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
-- Exercise: Image classification, the bread-and-butter of neural networks. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
+- Exercise: Image classification (optional). [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
 - Exercise: Using a Pre-Trained Generative Adversarial Network. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
-- Optional exercise: Fooling the image classifier with adversarial images. This is a bit more advanced topic, but included to demonstrate that discriminative models also have applications in generating images and visualizations. We will revisit the topic later. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AdversarialMNIST.ipynb).
-- Optional exercise: Sound classification, to illustrate how processing audio can be done very similarly to images. Jupyter notebook: [https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb](https://github.com/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/AudioMNIST.ipynb). Note: currently, this notebook only works on [Aalto's Jupyter server](Lessons/Jupyter_Colab_etc.md) or if you run it on your own computer after cloning the course Github repository. The audio file management has not yet been reworked for Colab.
 
 **Day 3 / Thu (Image Generation Models — Nam Hee Gordon Kim):**
 
@@ -147,18 +145,18 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 7 / Thu (Game AI — Christian Guckelsberger)**
 
-- Lecture: What are the core areas of videogame AI? Focus: combinining game AI for AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game. 
+- Lecture: What are the core areas of videogame AI? Focus: combinining game AI for AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
 - Exercise: Validate goal reachability in a simple, procedurally generated game.
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
 
 - Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
 - Exercise: Evaluate a system presented in the course based on a framework of your choice.
- 
+
 
 **Week 3 (Tue 15.02 - Fri 18.02.)**
 
-Reserved for student projects. 
+Reserved for student projects.
 
 ### Colab/Jupyter Notebooks and Other Tools
 
