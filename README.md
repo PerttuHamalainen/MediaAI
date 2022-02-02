@@ -125,14 +125,14 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Lecture: [Neural Networks: Tools and Principles, Part 2](Lessons/LectureSlides/neural_networks_part2.pdf). Generative adversarial networks (GANs), diffusion models, general-purpose text/image encoders e.g. CLIP.
 - [Perttu's Old Slides, Part 2](Lessons/LectureSlides/neural_networks_part2.pdf)
-- Exercise: CLIP-Guided Image Retrieval and Synthesis
-- Optional exercise: Fine-tuning CLIP
-- Optional exercise: Training a Projected GAN from scratch
+- Exercise: CLIP-Guided Image Retrieval and Synthesis [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/exercise-clip-guided-things.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/exercise-clip-guided-things-solutions.ipynb)
+- More exercises (TODO): Style transfer with CLIP, Fine-tuning CLIP
 
 **Day 4 / Fri** **(Lecture Buffer / Exercises or Project Work):**
 
 - (Optional) Additional lecture content to fit students’ skill levels
 - Student exercises
+- Optional exercise (TODO): Training a Projected GAN from scratch
 
 **Week 2 (Tue 08.02 - Fri 11.02.)**
 
