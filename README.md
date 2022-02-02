@@ -138,8 +138,8 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 5 / Tue** **(Text Prediction and Generation Models — Christian Guckelsberger):**
 
-- Lecture: Natural Language Generation for Creative Applications. Introduction to natural language models, overview of model evolution, the Transformer architecture, GPT-3 hands-on exercises, applications and risks.
-- Exercise: Create videogame text prompts on [OpenAI’s GPT-3 playground](https://beta.openai.com/playground)
+- Lecture: [Natural Language Generation for Creative Applications](Lessons/LectureSlides/text_generation_slides.pdf). Introduction to natural language models, overview of model evolution, the Transformer architecture, GPT-3 hands-on exercises, applications and risks.
+- Exercise: [Create dialogue script](Lessons/LectureSlides/text_generation_exercise.pdf) on [OpenAI’s GPT-3 playground](https://beta.openai.com/playground)
 
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
