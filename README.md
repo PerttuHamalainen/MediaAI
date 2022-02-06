@@ -11,7 +11,7 @@ This repository contains the lectures and materials of Aalto University's Intell
 
 Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links and resources.
 
-**2022 Coronavirus note:** we wait for further instructions but at present, the course will likely be held in hybrid mode or fully online (Zoom).
+**2022 Coronavirus note:** the course is organized in hybrid mode. Students can participate either IRL or online (Zoom).
 
 ## Course Overview & Design Philosophy
 
@@ -54,24 +54,6 @@ The project documentation is **to be submitted through [MyCourses](http://mycour
 
 Students can choose their **project topics** based on their own interests and learning goals. Projects are **agreed on** with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
 
-### Comparison to other courses
-
-Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F18/):
-
-- This course covers similar content as Kogan’s excellent course, but run over 3 weeks with intensive sessions from 9am to 12am, Tuesday-Friday, according to Aalto Media Lab's usual study schedule. This is thus more of a short crash course, and students willing to learn more should definitely check out Kogan's course as well.
-- More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
-
-[Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS:
-
-- We have some similar exercises, but the focus is more on applications and less on theory and mathematics, in order to make the material accessible for a wider audience. The more mathematically inclined students are highly encouraged to take both courses.
-
-[Special Course in Computer Science D: Seminar on Computational Creativity](https://mycourses.aalto.fi/course/view.php?id=30459) at Aalto CS/ARTS:
-
-- We focus on specific algorithms and their application, while this seminar focusses on theoretical questions regarding what makes a computational system creative, e.g. the very definition of creativity, means of evaluating creative systems, and the role of autonomy and intentionality. These questions are highly relevant to this course too, and we consequently provide a Computational Creativity crash course lecture on the last day of teaching.
-
-[Elements of AI](https://www.elementsofai.com/):
-
-- We have more practical exercises; this is a good follow-up if you've already taken that course.
 
 ## Syllabus
 
@@ -144,8 +126,9 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
 - Lecture: [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL), Monte Carlo Tree Search (MCTS), and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
-- Exercise: [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb)
-- Unity example (a Unity project folder that you can download and open in Unity): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool)
+- Exercise: Experiment with abstract art generation using [CLIPDraw](https://colab.research.google.com/github/kvfrans/clipdraw/blob/main/clipdraw.ipynb) and [StyleCLIPDraw](https://colab.research.google.com/github/pschaldenbrand/StyleCLIPDraw/blob/master/Style_ClipDraw.ipynb). First, follow the notebook instructions to get the code to generate something. Then try different text prompts and different drawing parameters.
+- Exercise (hard, optional): Modify CLIPDraw or StyleCLIPDraw to use CMA-ES instead of Adam. This should allow more robust results if you use high abstraction (only a few drawing primitives), which tends to make Adam more probable to get stuck in a bad local optimum. For reference, you can see this old course exercise on [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb). Note: You can also combine CMA-ES and Adam by first finding an approximate solution with CMA-ES and then finetuning with Adam.
+- Unity exercise (optional): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool). Download the project folder and test it in Unity.
 
 **Day 7 / Thu (Game AI — Christian Guckelsberger)**
 
@@ -207,6 +190,26 @@ Here are some people who are mixing AI, machine learning, art, and design with a
 - [Elements of AI](https://www.elementsofai.com/), an online course by University of Helsinki and Reaktor. Aalto students can also get 2 credits for this course. This is a course about the basic concepts, societal implications etc., no coding.
 - [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis. PDF available.
 - [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics. PDF available.
+
+### Comparison to other courses
+
+Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F18/):
+
+- This course covers similar content as Kogan’s excellent course, but run over 3 weeks with intensive sessions from 9am to 12am, Tuesday-Friday, according to Aalto Media Lab's usual study schedule. This is thus more of a short crash course, and students willing to learn more should definitely check out Kogan's course as well.
+- More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
+
+[Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS:
+
+- We have some similar exercises, but the focus is more on applications and less on theory and mathematics, in order to make the material accessible for a wider audience. The more mathematically inclined students are highly encouraged to take both courses.
+
+[Special Course in Computer Science D: Seminar on Computational Creativity](https://mycourses.aalto.fi/course/view.php?id=30459) at Aalto CS/ARTS:
+
+- We focus on specific algorithms and their application, while this seminar focusses on theoretical questions regarding what makes a computational system creative, e.g. the very definition of creativity, means of evaluating creative systems, and the role of autonomy and intentionality. These questions are highly relevant to this course too, and we consequently provide a Computational Creativity crash course lecture on the last day of teaching.
+
+[Elements of AI](https://www.elementsofai.com/):
+
+- We have more practical exercises; this is a good follow-up if you've already taken that course.
+
 
 ### Updates
 
