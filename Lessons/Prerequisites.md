@@ -1,5 +1,5 @@
 # Prerequisites
-Before you attend the class, you should go through the materials and instructions on this page. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer. *Software installation instructions are at the bottom of this page.*
+Before you attend the class, you should **go through the materials and instructions on this page**. This should take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
 
 **Do the following**
 
@@ -7,13 +7,13 @@ Before you attend the class, you should go through the materials and instruction
 
 * To grasp the fundamentals of what neural networks are doing, watch episodes 1-3 of 3Blue1Brown's [neural network series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
+* Learn about Colab notebooks (used for course exercises) by watching these videos: [Video 1](https://www.youtube.com/watch?v=inN8seMm7UI), [Video 2](https://www.youtube.com/watch?v=PitcORQSjNM) and reading through this [Tutorial notebook](https://colab.research.google.com/notebooks/welcome.ipynb). Feel free to also take a peek at this course's exercise notebooks such as [GAN image generation](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb). To test the notebook, **select "run all"** from the **"runtime" menu**. This runs all the code cells in sequence and should generate and display some images at the bottom of the notebook. In general, when opening a notebook, it's good to use "run all" first, before starting to modify individual code cells, because the cells often depend on variables initialized or packages imported in the preceding cells.
+
 * Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills.
 
 * Optional: Learn Python basics, e.g., using [these resources](Python.md). You should be able to pick things up as we go, especially if you already know some other programming language, but some Python experience definitely makes things easier.
 
 * Optional: Install the software tools as instructed at the bottom of this page.
-
-* Optional: Check out the awesome [Elements of AI](https://www.elementsofai.com/) course by University of Helsinki and Reaktor.
 
 
 **A selection Two Minute Papers videos:**

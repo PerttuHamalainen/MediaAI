@@ -14,15 +14,9 @@ Jupyter notebooks are a standard pedagogical tool in machine learning. They allo
 On the other hand, Jupyter may become cumbersome for larger projects, in which case most developers use Integrated Development Environments (IDE:s) like Visual Studio or Pycharm.
 
 ## How to run the Notebooks
-There are 3 main ways to run the notebooks:
+Students may install Anaconda and Jupyter on their computers and run the notebooks locally, but the recommended option is to run the notebooks on Google's Colab service, by clicking on the links in the course [syllabus](../README.md).
 
-* **Hosted by Google Colab:** Just click on the links in the next section. *This is the currently recommended option.* Check out this Colab tutorial: https://colab.research.google.com/notebooks/welcome.ipynb
-
-* **Hosted by Aalto:** log in to [Aalto's Jupyter service](https://jupyter.cs.aalto.fi) with your Aalto account, and select this course from the spawner menu. After this, when you do this for the first time, clone this repository by opening a terminal and typing ```git clone https://github.com/PerttuHamalainen/MediaAI```. After that, you can browse to the code/Jupyter folder and click on the notebooks to open and edit.
-
-* **On your own computer:** Follow the software installation instructions here: https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md You can run the notebooks locally on your machine by opening the Anaconda prompt and typing ```activate MediaAI``` (assuming that MediaAI is the Anaconda environment into which you've installed everything), and then ```jupyter notebook --notebook-dir MYPATH```, where the you should replace MYPATH with the folder where you've copied or cloned this repository.
-
-
+If you haven't used Colab before, check out this tutorial: https://colab.research.google.com/notebooks/welcome.ipynb
 
 ## ml5js, Tensorflow.js
 A recent alternative to Python is Javascript, using the [p5js](http://p5js.org/) and [ml5js](https://ml5js.org/) libraries. p5js is a Javascript Processing-inspired audiovisual coding framework, and m5js is a high-level wrapper for [Tensorflow.js](https://www.tensorflow.org/js). The [p5js web editor](https://editor.p5js.org/) allows you to start writing machine learning & Processing code in the browser, without installing anything. You can also [embed your scripts in an html file](https://github.com/tensorflow/tfjs-examples/tree/master/mnist), which however requires some additional code.

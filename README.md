@@ -36,7 +36,7 @@ The course is taught through:
 - Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones.
 - Final project on topics based on each student's interests. This can also be done in pairs.  
 
-The lectures provide brief introductions to a selection of topics, and most of the time is devoted to the exercises and project work. These are supported through individual tutoring both in class and using Zoom breakout rooms.  
+The exercises and project work are designed to scale for a broad range of skill levels.
 
 Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students).
 
@@ -48,11 +48,11 @@ Outside lectures and exercises, students can reach course staff through **Discor
 
 ### Grading / Project Work
 
-You **pass the course** by submitting a report of the project (details in the lecture slides). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
+You **pass the course** by submitting a report of the project in [MyCourses](http://mycourses.aalto.fi). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
 
-The project documentation is **to be submitted through [MyCourses](http://mycourses.aalto.fi)**. It is also recommended to make the project publicly available, e.g., as a Colab notebook or Github repository. You may simply submit a link to the notebook or repository, if they containthe needed documentation.
+It is also recommended to make the project publicly available, e.g., as a Colab notebook or Github repository. Instead of a project report, you may simply submit a link to the notebook or repository, if they contain the needed documentation.
 
-Students can choose their **project topics** based on their own interests and learning goals. Projects are **agreed on** with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using [https://theselyricsdonotexist.com/](https://theselyricsdonotexist.com/), and use them to compose and record a song.
+Students can choose their **project topics** based on their own interests and learning goals. Projects are agreed on with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using a text generator such as GPT-3, and use them to compose and record a song.
 
 
 ## Syllabus
@@ -63,7 +63,7 @@ Make sure you go through the materials and instructions on [this page](https://g
 
 ### Course Structure Overview
 
-There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15-12h**, and the remaining time is devoted to **project work** that can be done alone or together with a pair or group. The teachers will be there to provide personalized assistance. The exercises and project work are designed to scale for a broad range of skill levels. An overview below:
+There will be **3 weeks of contact teaching, 9.15-12.00, from Tue-Fri**. The lectures provide brief introductions to a selection of topics, and most of the time is devoted to the exercises and project work. The teachers will be present to provide personalized assistance.
 
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | --- | --- | --- | --- | --- |
@@ -71,13 +71,13 @@ There will be **lectures and exercises on 7+ mornings from Tue-Fri** from **9.15
 | Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: Game AI | Lecture: Computational Creativity |
 | Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
 
-The lessons each include lecture slides and/or exercises. The exercises are in the form of Jupyter notebooks (details: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account. [A note on Jupyter Notebooks, Colab, and other environments](Lessons/Jupyter_Colab_etc.md).
+The exercises are in the form of Jupyter notebooks (links: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account.
 
-*Note that we don't expect all students to complete all the exercises.* If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help.
+**Note that we don't expect all students to complete all the exercises.** If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help. It is recommended that students use approximately half of the contact teaching time for the exercises and devote the rest of the time to their own project or experiments.
 
 Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
-### Detailed Course Structure
+### Detailed Contents
 
 **DISCLAIMER**: The lecture slides are typically updated during each run of the course. Thus, if you download them before the course, you should re-download after the lecture has taken place.
 
@@ -87,6 +87,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 - Introduction: Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
 - Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
+- Exercise: If you didn't already do it, go through the Colab learning links in the [course prerequisites](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md).
 - Exercise: Introduction to tensors, numpy and matplotlib through processing images and audio. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio_solutions.ipynb)
 - Related to the above, see also: [https://numpy.org/devdocs/user/absolute_beginners.html](https://numpy.org/devdocs/user/absolute_beginners.html)
 - Exercise: Continuing the Numpy introduction, now for a simple data science project. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
@@ -125,7 +126,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 6 / Wed (Optimization — Perttu Hämäläinen):**
 
-- Lecture: [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL), Monte Carlo Tree Search (MCTS), and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
+- Lecture: [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL) and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
 - Exercise: Experiment with abstract art generation using [CLIPDraw](https://colab.research.google.com/github/kvfrans/clipdraw/blob/main/clipdraw.ipynb) and [StyleCLIPDraw](https://colab.research.google.com/github/pschaldenbrand/StyleCLIPDraw/blob/master/Style_ClipDraw.ipynb). First, follow the notebook instructions to get the code to generate something. Then try different text prompts and different drawing parameters.
 - Exercise (hard, optional): Modify CLIPDraw or StyleCLIPDraw to use CMA-ES instead of Adam. This should allow more robust results if you use high abstraction (only a few drawing primitives), which tends to make Adam more probable to get stuck in a bad local optimum. For reference, you can see this old course exercise on [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb). Note: You can also combine CMA-ES and Adam by first finding an approximate solution with CMA-ES and then finetuning with Adam.
 - Unity exercise (optional): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool). Download the project folder and test it in Unity.
