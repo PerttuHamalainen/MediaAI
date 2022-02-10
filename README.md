@@ -133,7 +133,7 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 7 / Thu (Game AI — Christian Guckelsberger)**
 
-- Lecture: What are the core areas of videogame AI? Focus: combinining game AI for AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
+- Lecture: [Game AI]((Lessons/LectureSlides/game_AI.pdf)) What is game AI? Game AI Research in industry / academia. Core areas of videogame AI. Deep Dive: State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
 - Exercise: Deep Reinforcement Learning for General Game-Playing [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI.ipynb).
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
