@@ -138,9 +138,8 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
 
-- Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
-- Exercise: Evaluate a system presented in the course based on a framework of your choice.
-
+- Lecture: [Introduction to Computational Creativity](Lessons/LectureSlides/computational_creativity_slides.pdf) Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
+- Exercise: [Debate Club](Lessons/LectureSlides/computational_creativity_exercise.pdf). Pick one system from the course, provide pro arguments for it being creative; counter the argument of one classmate on a different system.
 
 **Week 3 (Tue 15.02 - Fri 18.02.)**
 
