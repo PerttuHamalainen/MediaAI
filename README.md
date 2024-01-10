@@ -133,14 +133,13 @@ Since most of the exercises are in Python, these [Python learning resources](Les
 
 **Day 7 / Thu (Game AI — Christian Guckelsberger)**
 
-- Lecture: What are the core areas of videogame AI? Focus: combinining game AI for AI Playtesting? Use-cases for AI Playtesting based on industry requirements and research. State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
-- Exercise: Validate goal reachability in a simple, procedurally generated game.
+- Lecture: [Game AI](Lessons/LectureSlides/game_AI.pdf) What is game AI? Game AI Research in industry / academia. Core areas of videogame AI. Deep Dive: State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
+- Exercise: Deep Reinforcement Learning for General Game-Playing [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI.ipynb). [[Open in Colab with Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI_Solutions.ipynb).
 
 **Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
 
-- Lecture: Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
-- Exercise: Evaluate a system presented in the course based on a framework of your choice.
-
+- Lecture: [Introduction to Computational Creativity](Lessons/LectureSlides/computational_creativity_slides.pdf) Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
+- Exercise: [Debate Club](Lessons/LectureSlides/computational_creativity_exercise.pdf). Pick one system from the course, provide pro arguments for it being creative; counter the argument of one classmate on a different system.
 
 **Week 3 (Tue 15.02 - Fri 18.02.)**
 
