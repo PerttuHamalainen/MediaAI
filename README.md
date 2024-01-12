@@ -5,19 +5,15 @@
 -->
 ![Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model](Lessons/Media/clip_256_wide.jpg)
 
-*Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model*
-
 This repository contains the lectures and materials of Aalto University's Intelligent Computational Media course.
 
 Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links and resources.
-
-**2022 Coronavirus note:** the course is organized in hybrid mode. Students can participate either IRL or online (Zoom).
 
 ## Course Overview & Design Philosophy
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**.
 
-The 2022 edition of this course will be taught over a **three week period** from 01.02.-18.02.2022 by **Prof Perttu Hämäläinen** ([Twitter](https://twitter.com/perttu_h)), **Dr Christian Guckelsberger** ([Twitter](https://twitter.com/creativeEndvs)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first).
+The 2024 edition of this course is taught during Aalto University's Period 3 (six weeks) by **Prof Perttu Hämäläinen**  ([Twitter](https://twitter.com/perttu_h)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first).
 
 ### Learning Goals
 
@@ -32,118 +28,101 @@ The goal is for students to:
 The course is taught through:
 
 - Lectures
-- Software examples
-- Exercises that require you to modify the software examples to test your learning. We always try to provide both easy and advanced exercises to cater for different skill levels. Model solutions are provided for the easier ones.
+- Exercises that require you to either practice using existing AI tools, programmatically utilize the tools (e.g., to automate tedious manual prompting), or build new systems. We always try to provide both easy and advanced exercises to cater for different skill levels.
 - Final project on topics based on each student's interests. This can also be done in pairs.  
 
-The exercises and project work are designed to scale for a broad range of skill levels.
+The exercises and project work are designed to scale for a broad range of skill levels and starting points.
 
-Outside lectures and exercises, students can reach course staff through **Discord** (invitations will be send to registered students).
+Outside lectures and exercises, we use **Teams** for sharing results and peer-to-peer tutoring and guidance (Teams invitation will be send to registered students).
 
 ### Student Prerequisites
 
-- Basic programming skills (e.g., some python, processing, or Unity C#). We don't expect much, but the exercises can be challenging without some knowledge of things like variables, loops, and arrays
-
-- Basic high-school math. We focus on visual explanations that are enough to understand why and how various AI methods work.
+Although many of the exercises do require some Python programming and math skills, one can complete the course without programming, by focusing on creative utilization of existing tools such as ChatGPT and DALL-E.
 
 ### Grading / Project Work
 
-You **pass the course** by submitting a report of the project in [MyCourses](http://mycourses.aalto.fi). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
+You **pass the course** by submitting a report of your project in [MyCourses](http://mycourses.aalto.fi). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
 
 It is also recommended to make the project publicly available, e.g., as a Colab notebook or Github repository. Instead of a project report, you may simply submit a link to the notebook or repository, if they contain the needed documentation.
 
 Students can choose their **project topics** based on their own interests and learning goals. Projects are agreed on with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using a text generator such as GPT-3, and use them to compose and record a song.
 
-
-## Syllabus
-
-### Before the Course
+## Before the Course
 
 Make sure you go through the materials and instructions on [this page](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md) before the course. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
 
-### Course Structure Overview
-
-There will be **3 weeks of contact teaching, 9.15-12.00, from Tue-Fri**. The lectures provide brief introductions to a selection of topics, and most of the time is devoted to the exercises and project work. The teachers will be present to provide personalized assistance.
-
-|  | Monday | Tuesday | Wednesday | Thursday | Friday |
-| --- | --- | --- | --- | --- | --- |
-| Week 1 | - | Lecture: Overview | Lecture: Neural Network Basics | Lecture: Image Generation | Buffer |
-| Week 2 | - | Lecture: Text Generation | Lecture: Optimization | Lecture: Game AI | Lecture: Computational Creativity |
-| Week 3 | - | Student Projects | Student Projects | Student Projects | Student Projects |
-
-The exercises are in the form of Jupyter notebooks (links: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account.
-
-**Note that we don't expect all students to complete all the exercises.** If you can't figure something out, at least try reading and understanding the provided solutions. Also, please do ask for help. It is recommended that students use approximately half of the contact teaching time for the exercises and devote the rest of the time to their own project or experiments.
+The programming exercises are in the form of Jupyter notebooks (links: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account.
 
 Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
 
-### Detailed Contents
+For using OpenAI tools, it's also good to get an [OpenAI account](https://platform.openai.com). When creating the account, you get some free quota for generating text and images.
 
-**DISCLAIMER**: The lecture slides are typically updated during each run of the course. Thus, if you download them before the course, you should re-download after the lecture has taken place.
+## Contents
 
-**Week 1 (Tue 01.02 - Fri 04.02.)**
+**Overview and Motivation:**
 
-**Day 1 / Tue (Overview and Motivation — Perttu Hämäläinen):**
-
-- Introduction: Each student adds a slide in a shared Google Slides document: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
 - Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
+- Exercise: Each student joins the class Teams and posts an introduction to the General channel: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
+
+Programming exercises for those with at least some programming background:
 - Exercise: If you didn't already do it, go through the Colab learning links in the [course prerequisites](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md).
 - Exercise: Introduction to tensors, numpy and matplotlib through processing images and audio. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio_solutions.ipynb)
 - Related to the above, see also: [https://numpy.org/devdocs/user/absolute_beginners.html](https://numpy.org/devdocs/user/absolute_beginners.html)
 - Exercise: Continuing the Numpy introduction, now for a simple data science project. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/DataAndTensors_solutions.ipynb).
 - Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
 
-**Day 2 / Wed (Neural Networks Basics — Nam Hee Gordon Kim):**
 
-- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1_nhgk.pdf). Basics and standard techniques of neural networks. Introduction to convolutional neural networks, autoencoders, and transfer learning.
-- [Perttu's Old Slides, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
+For those with no programming background, this is a good time to think about your project and, e.g, browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration. Or you might skip ahead to text generation exercises.
+
+**Text Generation & Co-writing with AI:**
+
+- Lecture: [Co-writing with AI](Lessons/LectureSlides/Writing_with_AI.pdf). Introduction to Large Language Models (LLMs), some history, examples of different types of texts and applications.
+- Exercises: [Generating game ideas, automating manual prompting using Python, Retrieval-Augmented Generation](Lessons/LectureSlides/Writing_with_AI_exercises.pdf)
+
+**Image Generation**
+- Materials coming up...
+- Prompting Exercise: Prompt images with different art styles, cameras, lighting... For reference, see [The DALL-E 2 prompt book](https://dallery.gallery/wp-content/uploads/2022/07/The-DALL%c2%b7E-2-prompt-book.pdf)
+- Prompting Exercise: Pick an interesting reference image and try to come up with a textg prompt that produces an image as close to the reference as possible. Use your preferred text-to-image tool such as DALL-E, MidJourney or Stable Diffusion. You can install Stable Diffusion locally, and it is also available through Colab: [Huggingface basic notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb), [Notebook with Automatic1111 WebUI](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb)
+- Prompting Exercise: Practice using both text and image prompts using StableDiffusion and ControlNet. This can be done either in [Colab](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/controlnet.ipynb#scrollTo=4_lkdXOQmjnV) or installing Stable Diffusion locally and using an UI such as [Comfy UI](https://comfyanonymous.github.io/ComfyUI_examples/controlnet/)
+- Colab Exercise: Using a Pre-Trained Generative Adversarial Network (GAN) to generate and interpolate images. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
+- Colab Exercise: [Interpolate between prompts using Stable Diffusion](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/generative/ipynb/random_walks_with_stable_diffusion.ipynb)
+- Colab Exercise: Finetune StableDiffusion using your own images. There are multiple options, although all of them seem to require at least 24GB of GPU memory => you'll most likely need a paid Colab account. Some options: [Huggingface Diffusers official tutorial](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_dreambooth_training.ipynb), [Joe Penna's DreamBooth](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), [TheLastBen](https://github.com/TheLastBen/fast-stable-diffusion)
+
+**Audio Generation**
+- Materials coming soon
+
+**Animation and Movement Control**
+- Materials coming soon
+
+
+**Foundation models and other common building blocks**
+
+
+**Training Neural Networks from Scratch**
+
+- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
 - Demos:
   * [Demo 1: Inference](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo1-inference.ipynb)
   * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
   * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
-- Exercise: Image classification (optional). [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
-- Exercise: Using a Pre-Trained Generative Adversarial Network (GAN) to generate images. [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb), [[Solutions]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test_solutions.ipynb)
+- Exercise: Image classification. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
 
-**Day 3 / Thu (Image Generation Models — Nam Hee Gordon Kim):**
+**Deeper into Transformers**
+- Materials coming soon
 
-- Lecture: [Neural Networks: Tools and Principles, Part 2](Lessons/LectureSlides/neural_networks_part2_nhgk.pdf). Generative adversarial networks (GANs), diffusion models, general-purpose text/image encoders e.g. CLIP.
-- [Perttu's Old Slides, Part 2](Lessons/LectureSlides/neural_networks_part2.pdf)
-- Exercise: CLIP-Guided Image Retrieval and Synthesis [[Open in Colab]](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/exercise_clip_guided_things.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/exercise-clip-guided-things-solutions.ipynb)
-- More exercises (TODO): Style transfer with CLIP, Fine-tuning CLIP
 
-**Day 4 / Fri** **(Lecture Buffer / Exercises or Project Work):**
-
-- (Optional) Additional lecture content to fit students’ skill levels
-- Student exercises
-- Optional exercise (TODO): Training a Projected GAN from scratch
-
-**Week 2 (Tue 08.02 - Fri 11.02.)**
-
-**Day 5 / Tue** **(Text Prediction and Generation Models — Christian Guckelsberger):**
-
-- Lecture: [Natural Language Generation for Creative Applications](Lessons/LectureSlides/text_generation_slides.pdf). Introduction to natural language models, overview of model evolution, the Transformer architecture, GPT-3 hands-on exercises, applications and risks.
-- Exercise: [Create dialogue script](Lessons/LectureSlides/text_generation_exercise.pdf) on [OpenAI’s GPT-3 playground](https://beta.openai.com/playground)
-
-**Day 6 / Wed (Optimization — Perttu Hämäläinen):**
+**Optimization**
 
 - Lecture: [Optimization](Lessons/LectureSlides/optimization.pdf). Mathematical optimization is at the heart of almost all AI and ML. We've already applied optimization when training neural networks; now it's the time to get a bit wider and deeper understanding. We'll cover a number of common techniques such as Deep Reinforcement Learning (DRL) and Covariance Matrix Adaptation Evolution Strategy (CMA-ES).
 - Exercise: Experiment with abstract art generation using [CLIPDraw](https://colab.research.google.com/github/kvfrans/clipdraw/blob/main/clipdraw.ipynb) and [StyleCLIPDraw](https://colab.research.google.com/github/pschaldenbrand/StyleCLIPDraw/blob/master/Style_ClipDraw.ipynb). First, follow the notebook instructions to get the code to generate something. Then try different text prompts and different drawing parameters.
 - Exercise (hard, optional): Modify CLIPDraw or StyleCLIPDraw to use CMA-ES instead of Adam. This should allow more robust results if you use high abstraction (only a few drawing primitives), which tends to make Adam more probable to get stuck in a bad local optimum. For reference, you can see this old course exercise on [Generating abstract adversarial art using CMA-ES](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/CMA-ES_Art.ipynb). Note: You can also combine CMA-ES and Adam by first finding an approximate solution with CMA-ES and then finetuning with Adam.
 - Unity exercise (optional): [Discovering billiards trick shots in Unity](Code/Unity/IntelligentPool). Download the project folder and test it in Unity.
 
-**Day 7 / Thu (Game AI — Christian Guckelsberger)**
+**Game AI**
 
 - Lecture: [Game AI](Lessons/LectureSlides/game_AI.pdf) What is game AI? Game AI Research in industry / academia. Core areas of videogame AI. Deep Dive: State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
 - Exercise: Deep Reinforcement Learning for General Game-Playing [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI.ipynb). [[Open in Colab with Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI_Solutions.ipynb).
 
-**Day 8 / Fri (Computational Creativity Theory — Christian Guckelsberger)**
-
-- Lecture: [Introduction to Computational Creativity](Lessons/LectureSlides/computational_creativity_slides.pdf) Defining (computational) creativity from the perspectives of psychology vs. AI. Understanding generation and evaluation a two sides of the same coin. Discussing the need for autonomy and intentionality to increase the authenticity of creative systems.
-- Exercise: [Debate Club](Lessons/LectureSlides/computational_creativity_exercise.pdf). Pick one system from the course, provide pro arguments for it being creative; counter the argument of one classmate on a different system.
-
-**Week 3 (Tue 15.02 - Fri 18.02.)**
-
-Reserved for student projects.
 
 ### Colab/Jupyter Notebooks and Other Tools
 
