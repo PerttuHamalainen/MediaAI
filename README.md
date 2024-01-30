@@ -49,22 +49,56 @@ Students can choose their **project topics** based on their own interests and le
 
 ## Before the Course
 
-Make sure you go through the materials and instructions on [this page](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md) before the course. This will take about 2 hours, plus an extra 1-2 hours if you install all the software on your computer.
+**Before the first lecture, you should:**
 
-The programming exercises are in the form of Jupyter notebooks (links: scroll down), and the exercise links open the notebooks in [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), for which you need a Google account.
+* Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills. If you do not yet know what to work on, go through the selection of Two Minute Papers videos below to get an idea of the range of computational media applications possible with modern machine learning. You can also browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration.
 
-Since most of the exercises are in Python, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
+* Make yourself a Google account if you don't have one. This is needed for [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), which we use for many demos and programming exercises. **Important security notice:** Colab notebooks run on Google servers and by default cannot access files on your computer. However, some notebooks might contain malicious code. Thus, *do not input any passwords or let a Colab notebook connect with your Google Drive* unless you trust the notebook.
 
-For using OpenAI tools, it's also good to get an [OpenAI account](https://platform.openai.com). When creating the account, you get some free quota for generating text and images.
+* For using OpenAI tools, it's also good to get an [OpenAI account](https://platform.openai.com). When creating the account, you get some free quota for generating text and images.
+
+* If you plan to try the programming exercises of the course, these [Python learning resources](Lessons/Python.md) might come handy. However, if you know some other programming language, you should be able to learn while going through the exercises.
+
+* To grasp the fundamentals of what neural networks are doing, watch episodes 1-3 of 3Blue1Brown's [neural network series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
+* Learn about Colab notebooks (used for course exercises) by watching these videos: [Video 1](https://www.youtube.com/watch?v=inN8seMm7UI), [Video 2](https://www.youtube.com/watch?v=PitcORQSjNM) and reading through this [Tutorial notebook](https://colab.research.google.com/notebooks/welcome.ipynb). Feel free to also take a peek at this course's exercise notebooks such as [GAN image generation](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb). To test the notebook, **select "run all"** from the **"runtime" menu**. This runs all the code cells in sequence and should generate and display some images at the bottom of the notebook. In general, when opening a notebook, it's good to use "run all" first, before starting to modify individual code cells, because the cells often depend on variables initialized or packages imported in the preceding cells.
+
+
+**A selection Two Minute Papers videos:**
+
+Game playing:
+* [Playing Atari games with deep reinforcement learning](https://www.youtube.com/watch?v=Ih8EfvOzBOY&index=3&t=11s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
+* [Game playing with artificial curiosity](https://www.youtube.com/watch?v=fzuYEStsQxc&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=176&t=0s)
+* [AlphaZero](https://www.youtube.com/watch?v=2ciR6rA85tg&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=107&t=0s)
+
+Image processing and synthesis:
+* [Universal Style Transfer](https://www.youtube.com/watch?v=v1oWke0Qf1E&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=104)
+* [Learning to see in the dark](https://www.youtube.com/watch?v=bcZFQ3f26pA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=144)
+* [Image matting](https://www.youtube.com/watch?v=6DVng5JVuhI&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=100&t=0s)
+* [Generating images from drawings (pix2pix)](https://www.youtube.com/watch?v=u7kQ5lNfUfg)
+* [Everybody Dance Now](https://www.youtube.com/watch?v=cEBgi6QYDhQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=161&t=0s)
+* [Google's Big GAN](https://www.youtube.com/watch?v=ZKQp28OqwNQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=182) A pretrained BigGAN is what powers many recent GAN art projects, e.g., [GanBreeder](https://ganbreeder.app/)
+* [GAN dissection](https://www.youtube.com/watch?v=iM4PPGDQry0)
+* [Generating images from text descriptions](https://www.youtube.com/watch?v=9bcbh2hC7Hw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=69&t=0s)
+
+Processing and synthesis of other media:
+* [WaveNet](https://www.youtube.com/watch?v=CqFIVCD1WWo&index=42&t=0s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
+* [Google's text to speech](https://www.youtube.com/watch?v=bdM9c2OFYuw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=119)
+* [Singing synthesis](https://www.youtube.com/watch?v=HANeLG0l2GA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=121&t=0s)
+* [Recurrent neural network writes music and novels](https://www.youtube.com/watch?v=Jkkjy7dVdaY&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=8&t=0s)
+* [Terrain generation](https://www.youtube.com/watch?v=NEscK5RCtlo&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=99&t=0s)
+* [Hallucinating audio based on video](https://www.youtube.com/watch?v=flOevlA9RyQ)
+
 
 ## Contents
+The following provides the lecture slides and exercises. We will progress roughly one day per topic, devoting the last sessions to individual project work.
 
 **Overview and Motivation:**
 
 - Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
-- Exercise: Each student joins the class Teams and posts an introduction to the General channel: What's your background, what do you want to learn? This will help students to find teammates and teachers to customize the course contents
+- Exercise: Each student adds their slide to the shared Google Slides. We will then go through the slides and briefly discuss the topics and who might benefit from collaborating with others.
 
-Programming exercises for those with at least some programming background:
+Optional programming exercises for those with at least some programming background:
 - Exercise: If you didn't already do it, go through the Colab learning links in the [course prerequisites](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md).
 - Exercise: Introduction to tensors, numpy and matplotlib through processing images and audio. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/ImagesAndAudio_solutions.ipynb)
 - Related to the above, see also: [https://numpy.org/devdocs/user/absolute_beginners.html](https://numpy.org/devdocs/user/absolute_beginners.html)
@@ -72,7 +106,6 @@ Programming exercises for those with at least some programming background:
 - Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
 
 
-For those with no programming background, this is a good time to think about your project and, e.g, browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration. Or you might skip ahead to text generation exercises.
 
 **Text Generation & Co-writing with AI:**
 
@@ -98,17 +131,15 @@ For those with no programming background, this is a good time to think about you
 
 - Colab Exercise: Finetune StableDiffusion using your own images. There are multiple options, although all of them seem to require at least 24GB of GPU memory => you'll most likely need a paid Colab account. Some options: [Huggingface Diffusers official tutorial](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_dreambooth_training.ipynb), [Joe Penna's DreamBooth](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), [TheLastBen](https://github.com/TheLastBen/fast-stable-diffusion)
 
-**Audio Generation**
-- Materials coming soon
 
-**Animation and Movement Control**
-- Materials coming soon
+**Generating other media, real-life workflows**
+- Lecture (work in progress, will be updated): [Generating other media](Lessons/LectureSlides/other_generation.pdf)
 
-**Foundation models and other common building blocks**
+**Deeper into LLMs and Transformers**
 - Materials coming soon
-
 
 **Training Neural Networks from Scratch**
+- Materials coming soon
 
 - Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
 - Demos:
@@ -116,9 +147,6 @@ For those with no programming background, this is a good time to think about you
   * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
   * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
 - Exercise: Image classification. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
-
-**Deeper into Transformers**
-- Materials coming soon
 
 
 **Optimization**
@@ -184,7 +212,7 @@ Here are some people who are mixing AI, machine learning, art, and design with a
 
 Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F18/):
 
-- This course covers similar content as Kogan’s excellent course, but run over 3 weeks with intensive sessions from 9am to 12am, Tuesday-Friday, according to Aalto Media Lab's usual study schedule. This is thus more of a short crash course, and students willing to learn more should definitely check out Kogan's course as well.
+- This course covers similar content as Kogan’s excellent course, but run over 6 weeks with two 3h sessions per week. This is thus more of a short crash course, and students willing to learn more should definitely check out Kogan's course as well.
 - More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
 
 [Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS:
