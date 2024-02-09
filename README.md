@@ -51,9 +51,9 @@ Students can choose their **project topics** based on their own interests and le
 
 **Before the first lecture, you should:**
 
-* Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills. If you do not yet know what to work on, go through the selection of Two Minute Papers videos below to get an idea of the range of computational media applications possible with modern machine learning. You can also browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration.
+* Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills. If you do not yet know what to work on, browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration.
 
-* Make yourself a Google account if you don't have one. This is needed for [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), which we use for many demos and programming exercises. **Important security notice:** Colab notebooks run on Google servers and by default cannot access files on your computer. However, some notebooks might contain malicious code. Thus, *do not input any passwords or let a Colab notebook connect with your Google Drive* unless you trust the notebook.
+* Make yourself a Google account if you don't have one. This is needed for [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), which we use for many demos and programming exercises. **Important security notice:** Colab notebooks run on Google servers and by default cannot access files on your computer. However, some notebooks might contain malicious code. Thus, *do not input any passwords or let a Colab notebook connect with your Google Drive* unless you trust the notebook. The notebooks in this repository should be safe but the lecture slides also link to 3rd party notebooks that one can never be sure about.
 
 * For using OpenAI tools, it's also good to get an [OpenAI account](https://platform.openai.com). When creating the account, you get some free quota for generating text and images.
 
@@ -64,33 +64,7 @@ Students can choose their **project topics** based on their own interests and le
 * Learn about Colab notebooks (used for course exercises) by watching these videos: [Video 1](https://www.youtube.com/watch?v=inN8seMm7UI), [Video 2](https://www.youtube.com/watch?v=PitcORQSjNM) and reading through this [Tutorial notebook](https://colab.research.google.com/notebooks/welcome.ipynb). Feel free to also take a peek at this course's exercise notebooks such as [GAN image generation](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb). To test the notebook, **select "run all"** from the **"runtime" menu**. This runs all the code cells in sequence and should generate and display some images at the bottom of the notebook. In general, when opening a notebook, it's good to use "run all" first, before starting to modify individual code cells, because the cells often depend on variables initialized or packages imported in the preceding cells.
 
 
-**A selection Two Minute Papers videos:**
-
-Game playing:
-* [Playing Atari games with deep reinforcement learning](https://www.youtube.com/watch?v=Ih8EfvOzBOY&index=3&t=11s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
-* [Game playing with artificial curiosity](https://www.youtube.com/watch?v=fzuYEStsQxc&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=176&t=0s)
-* [AlphaZero](https://www.youtube.com/watch?v=2ciR6rA85tg&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=107&t=0s)
-
-Image processing and synthesis:
-* [Universal Style Transfer](https://www.youtube.com/watch?v=v1oWke0Qf1E&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=104)
-* [Learning to see in the dark](https://www.youtube.com/watch?v=bcZFQ3f26pA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=144)
-* [Image matting](https://www.youtube.com/watch?v=6DVng5JVuhI&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=100&t=0s)
-* [Generating images from drawings (pix2pix)](https://www.youtube.com/watch?v=u7kQ5lNfUfg)
-* [Everybody Dance Now](https://www.youtube.com/watch?v=cEBgi6QYDhQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=161&t=0s)
-* [Google's Big GAN](https://www.youtube.com/watch?v=ZKQp28OqwNQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=182) A pretrained BigGAN is what powers many recent GAN art projects, e.g., [GanBreeder](https://ganbreeder.app/)
-* [GAN dissection](https://www.youtube.com/watch?v=iM4PPGDQry0)
-* [Generating images from text descriptions](https://www.youtube.com/watch?v=9bcbh2hC7Hw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=69&t=0s)
-
-Processing and synthesis of other media:
-* [WaveNet](https://www.youtube.com/watch?v=CqFIVCD1WWo&index=42&t=0s&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2)
-* [Google's text to speech](https://www.youtube.com/watch?v=bdM9c2OFYuw&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&t=0s&index=119)
-* [Singing synthesis](https://www.youtube.com/watch?v=HANeLG0l2GA&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=121&t=0s)
-* [Recurrent neural network writes music and novels](https://www.youtube.com/watch?v=Jkkjy7dVdaY&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=8&t=0s)
-* [Terrain generation](https://www.youtube.com/watch?v=NEscK5RCtlo&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=99&t=0s)
-* [Hallucinating audio based on video](https://www.youtube.com/watch?v=flOevlA9RyQ)
-
-
-## Contents
+## Syllabus and contents
 The following provides the lecture slides and exercises. We will progress roughly one day per topic, devoting the last sessions to individual project work.
 
 **Overview and Motivation:**
@@ -110,6 +84,9 @@ Optional programming exercises for those with at least some programming backgrou
 **Text Generation & Co-writing with AI:**
 
 - Lecture: [Co-writing with AI](Lessons/LectureSlides/Writing_with_AI.pdf). Introduction to Large Language Models (LLMs), some history, examples of different types of texts and applications.
+
+- Lecture: [Deeper into transformers](Lessons/LectureSlides/deeper_into_transformers.pdf). Understanding transformer attention and emergent abilities of LLMs.
+
 - Exercises: [Generating game ideas, automating manual prompting using Python, Retrieval-Augmented Generation](Lessons/LectureSlides/Writing_with_AI_exercises.pdf)
 
 **Image Generation**
@@ -133,20 +110,7 @@ Optional programming exercises for those with at least some programming backgrou
 
 
 **Generating other media, real-life workflows**
-- Lecture (work in progress, will be updated): [Generating other media](Lessons/LectureSlides/other_generation.pdf)
-
-**Deeper into LLMs and Transformers**
-- Materials coming soon
-
-**Training Neural Networks from Scratch**
-- Materials coming soon
-
-- Lecture: [Neural Networks: Tools and Principles, Part 1](Lessons/LectureSlides/neural_networks_part1.pdf)
-- Demos:
-  * [Demo 1: Inference](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo1-inference.ipynb)
-  * [Demo 2: Training](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo2-training.ipynb)
-  * [Demo 3: Denoising CNN Autoencoder](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Demos/demo3-denoising-cnn-autoencoder.ipynb)
-- Exercise: Image classification. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/MNIST_solutions.ipynb)
+- Lecture: [Generating other media](Lessons/LectureSlides/other_generation.pdf)
 
 
 **Optimization**
@@ -164,9 +128,7 @@ Optional programming exercises for those with at least some programming backgrou
 
 ### Colab/Jupyter Notebooks and Other Tools
 
-These can provide starting points for your project work. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
-
-NOTE: if you get weird errors when running these on Colab, try adding `%tensorflow_version 1.x` to the beginning of the notebook, then select "Restart and run all" from the Runtime menu. Colab recently switched to Tensorflow 2 by default, but many of these notebooks precede the switch.
+These can provide starting points for your project work. See the lecture slides for more. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
 
 - [StyleGAN 2 finetuned with paintings](https://colab.research.google.com/drive/1cFKK0CBnev2BF8z9BOHxePk7E-f7TtUi#forceEdit=true&sandboxMode=true&scrollTo=jJRPjAU3Tn-K). Also see the [Reddit thread](https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/?utm_content=title&utm_medium=post_embed&utm_name=44df278f7cb542cdb847cad34267b5ff&utm_source=embedly&utm_term=bagnq6)
 - [Generate piano music with transformer networks](https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb)
