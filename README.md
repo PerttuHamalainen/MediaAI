@@ -89,6 +89,8 @@ Optional programming exercises for those with at least some programming backgrou
 
 - Exercises: [Generating game ideas, automating manual prompting using Python, Retrieval-Augmented Generation](Lessons/LectureSlides/Writing_with_AI_exercises.pdf)
 
+- Tutorial: [Few-shot Prompting using OpenAI API](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/few_shot_prompting.ipynb)
+
 **Image Generation**
 - Lecture: [Image generation](Lessons/LectureSlides/image_generation.pdf)
 
