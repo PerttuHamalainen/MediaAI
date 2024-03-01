@@ -15,7 +15,7 @@ This is a hands-on, project-based crash course for deep learning and other AI te
 
 The 2024 edition of this course is taught during Aalto University's Period 3 (six weeks) by **Prof Perttu Hämäläinen**  ([Twitter](https://twitter.com/perttu_h)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registration through [Aalto's Mycourses system](https://mycourses.aalto.fi).
 
-### Learning Goals
+**Learning Goals**
 
 The goal is for students to:
 
@@ -23,7 +23,7 @@ The goal is for students to:
 - Understand what the tools can be used for in context of art, media, and design, and
 - Get hands-on practice of designing, implementing and/or using the tools.
 
-### Pedagogical approach
+**Pedagogical approach**
 
 The course is taught through:
 
@@ -35,11 +35,11 @@ The exercises and project work are designed to scale for a broad range of skill 
 
 Outside lectures and exercises, we use **Teams** for sharing results and peer-to-peer tutoring and guidance (Teams invitation will be send to registered students).
 
-### Student Prerequisites
+**Student Prerequisites**
 
 Although many of the exercises do require some Python programming and math skills, one can complete the course without programming, by focusing on creative utilization of existing tools such as ChatGPT and DALL-E.
 
-### Grading / Project Work
+**Grading / Project Work**
 
 You **pass the course** by submitting a report of your project in [MyCourses](http://mycourses.aalto.fi). The grading is pass / fail, as numerical grading is not feasible on a course where students typically come from very different backgrounds. To get your project accepted, the main requirement is that a you make an effort and advance from your individual starting point.
 
@@ -47,7 +47,7 @@ It is also recommended to make the project publicly available, e.g., as a Colab 
 
 Students can choose their **project topics** based on their own interests and learning goals. Projects are agreed on with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using a text generator such as GPT-3, and use them to compose and record a song.
 
-## Preparing the Course
+## Preparing for the Course
 
 **Before the first lecture, you should:**
 
@@ -127,7 +127,7 @@ Optional programming exercises for those with at least some programming backgrou
 - Lecture: [Game AI](Lessons/LectureSlides/game_AI.pdf) What is game AI? Game AI Research in industry / academia. Core areas of videogame AI. Deep Dive: State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
 - Exercise: Deep Reinforcement Learning for General Game-Playing [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI.ipynb). [[Open in Colab with Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI_Solutions.ipynb).
 
-### Inspiration for Further Experiments
+## Inspiration for Further Experiments
 
 *a.k.a. Heroes of Creative AI and ML coding*
 
@@ -140,7 +140,7 @@ Here are some people who are mixing AI, machine learning, art, and design with a
 - [http://memo.tv](http://memo.tv)
 - [https://www.enist.org](https://www.enist.org/post/)
 
-### Supplementary Material
+## Supplementary Material
 The lecture slides have more extensive links to resources on each covered topic. Here, we only list some general resources:
 
 - [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), if you prefer Javascript to Python, this toolset may provides the fastest way to creative AI coding in a [browser-based editor](https://editor.p5js.org/), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view. [This one](https://editor.p5js.org/genekogan/sketches/Hk2Q4Sqe4) utilizes similar PoseNet tracking to control procedural audio synthesis.
@@ -152,7 +152,7 @@ The lecture slides have more extensive links to resources on each covered topic.
 - [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis. PDF available.
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/) by Simon J.D. Prince. Published in December 2023, this is currently the most up-to-date textbook for deep learning, praised for its clear explanations and helpful visualizations. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics. PDF available.
 
-### Updates
+## Updates
 
 *The field is changing rapidly and we are constantly collecting new teaching material.*
 
