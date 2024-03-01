@@ -65,7 +65,7 @@ Students can choose their **project topics** based on their own interests and le
 
 
 ## Lectures and Exercises
-We will progress roughly one day per topic, devoting the last sessions to individual project work.
+We will spend roughly one week per topic, devoting the last sessions to individual project work.
 
 **Overview and Motivation:**
 
@@ -80,7 +80,6 @@ Optional programming exercises for those with at least some programming backgrou
 - Exercise: Training a very simple neural network using a [Kaggle](https://www.kaggle.com/) dataset of human height and weight. [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight.ipynb), [[Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/PredictWeight_solutions.ipynb)
 
 
-
 **Text Generation & Co-writing with AI:**
 
 - Lecture: [Co-writing with AI](Lessons/LectureSlides/Writing_with_AI.pdf). Introduction to Large Language Models (LLMs), some history, examples of different types of texts and applications.
@@ -90,6 +89,7 @@ Optional programming exercises for those with at least some programming backgrou
 - Exercises: [Generating game ideas, automating manual prompting using Python, Retrieval-Augmented Generation](Lessons/LectureSlides/Writing_with_AI_exercises.pdf)
 
 - Tutorial: [Few-shot Prompting using OpenAI API](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/few_shot_prompting.ipynb)
+
 
 **Image Generation**
 - Lecture: [Image generation](Lessons/LectureSlides/image_generation.pdf)
