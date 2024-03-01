@@ -1,11 +1,11 @@
-# AI for Media, Art & Design (Aka "Intelligent Computational Media")
+# AI for Media, Art & Design
 
 <!--
 ![Some examples of content covered](Lessons/Media/github_preview.jpg)
 -->
 ![Images created with the CLIP (Contrastive Language-Image Pre-training; Radford et al., 2021) model](Lessons/Media/clip_256_wide.jpg)
 
-This repository contains the lectures and materials of Aalto University's Intelligent Computational Media course.
+This repository contains the lectures and materials of Aalto University's AI for Media, Art & Design course. Scroll down for lecture slides and exercises.
 
 Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links and resources.
 
@@ -47,7 +47,7 @@ It is also recommended to make the project publicly available, e.g., as a Colab 
 
 Students can choose their **project topics** based on their own interests and learning goals. Projects are agreed on with the teachers. You could create something in Colab or Unity Machine Learning agents, or if you'd rather not write any code, experimenting with artist-friendly tools like [GIMP-ML](https://github.com/kritiksoman/GIMP-ML) or [RunwayML](https://runwayml.com/) to create something new and/or interesting is also ok. For example, one could generate song lyrics using a text generator such as GPT-3, and use them to compose and record a song.
 
-## Before the Course
+## Preparing the Course
 
 **Before the first lecture, you should:**
 
@@ -127,27 +127,6 @@ Optional programming exercises for those with at least some programming backgrou
 - Lecture: [Game AI](Lessons/LectureSlides/game_AI.pdf) What is game AI? Game AI Research in industry / academia. Core areas of videogame AI. Deep Dive: State-of-the-art AI playtesting (Roohi et al., 2021): Combining deep reinforcement learning (DRL), Monte-Carlo tree search (MCTS) and a player population simulation to estimate player engagement and difficulty in a match-3 game.
 - Exercise: Deep Reinforcement Learning for General Game-Playing [[Open in Colab]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI.ipynb). [[Open in Colab with Solutions]](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/GameAI_Solutions.ipynb).
 
-
-### Colab/Jupyter Notebooks and Other Tools
-
-These can provide starting points for your project work. See the lecture slides for more. Note: the notebooks may take a while to run, but you can usually view or listen the pre-generated results without running the code. Disclaimer: I haven't had time to check that all of these run properly.
-
-- [StyleGAN 2 finetuned with paintings](https://colab.research.google.com/drive/1cFKK0CBnev2BF8z9BOHxePk7E-f7TtUi#forceEdit=true&sandboxMode=true&scrollTo=jJRPjAU3Tn-K). Also see the [Reddit thread](https://www.reddit.com/r/MachineLearning/comments/bagnq6/p_stylegan_trained_on_paintings_512x512/?utm_content=title&utm_medium=post_embed&utm_name=44df278f7cb542cdb847cad34267b5ff&utm_source=embedly&utm_term=bagnq6)
-- [Generate piano music with transformer networks](https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb)
-- [GPT-2 text generation and finetuning the model with custom text](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce)
-- [NSynth Neural Audio Synthesis](https://colab.research.google.com/notebooks/magenta/nsynth/nsynth.ipynb). This is the "official" tutorial by Google.
-- [A more extensive NSynth notebook](https://colab.research.google.com/drive/10wogut1V2ToGQZJcXH8StoMat6oWxoEu#scrollTo=0Fy4k_7SrnjH).
-- [Neural style transfer for images](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_2d.ipynb)
-- [Style transfer for textured 3D models](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_3d.ipynb)
-- [BigGAN with an interactive interface](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb)
-- [A big Github repository of Jupyter notebooks for various topics, e.g., text, voice, visualization](https://github.com/firmai/awesome-google-colab). To open the notebooks in Colab, replace the [https://github.com](https://github.com/) in the urls by [https://colab.research.google.com/github](https://colab.research.google.com/github).
-- [12 Colab notebooks that matter](https://towardsdatascience.com/12-colab-notebooks-that-matter-e14ce1e3bdd0).
-- [Google AI Hub notebooks](https://aihub.cloud.google.com/s?category=notebook&order=3)
-- [Pix2Pix example](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb#scrollTo=ITZuApL56Mny)
-- A large repository of Jupyter notebook implementations of deep learning models (may or may not work on Colab): [https://github.com/rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models)
-- [Deepfake tools](https://vuild.com/deep-fake-tools) (face swapping for images and video)
-- [Machine learning plugins for GIMP](https://github.com/kritiksoman/GIMP-ML)
-
 ### Inspiration for Further Experiments
 
 *a.k.a. Heroes of Creative AI and ML coding*
@@ -162,35 +141,16 @@ Here are some people who are mixing AI, machine learning, art, and design with a
 - [https://www.enist.org](https://www.enist.org/post/)
 
 ### Supplementary Material
+The lecture slides have more extensive links to resources on each covered topic. Here, we only list some general resources:
 
-- [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), the toolset that provides the fastest way to creative AI coding in a [browser-based editor](https://editor.p5js.org/), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view. [This one](https://editor.p5js.org/genekogan/sketches/Hk2Q4Sqe4) utilizes similar PoseNet tracking to control procedural audio synthesis.
+- [ml5js](https://ml5js.org/) & [p5js](http://p5js.org/), if you prefer Javascript to Python, this toolset may provides the fastest way to creative AI coding in a [browser-based editor](https://editor.p5js.org/), without installing anything. Works even on mobile browsers! [This example](https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ) uses a deep neural network to track your nose and draw on the webcam view. [This one](https://editor.p5js.org/genekogan/sketches/Hk2Q4Sqe4) utilizes similar PoseNet tracking to control procedural audio synthesis.
 - [Machine Learning for Artists (ml4a)](http://ml4a.github.io/), including many cool [demos](http://ml4a.github.io/demos/), many of them built using p5js and ml5js.
 - [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents), a framework for using deep reinforcement learning for Unity. Includes code examples and blog posts.
 - [Two Minute Papers](https://www.youtube.com/playlist?list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2), a YouTube channel with short and accessible explanations of AI and deep learning research papers.
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), a YouTube channel with excellent visual explanations on math, including [neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) and [linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
 - [Elements of AI](https://www.elementsofai.com/), an online course by University of Helsinki and Reaktor. Aalto students can also get 2 credits for this course. This is a course about the basic concepts, societal implications etc., no coding.
 - [Game AI Book](http://gameaibook.org/) by Togelius and Yannakakis. PDF available.
-- [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow et al. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics. PDF available.
-
-### Comparison to other courses
-
-Gene Kogan's NYU course [Neural Aesthetics](https://ml4a.github.io/classes/itp-F18/):
-
-- This course covers similar content as Kogan’s excellent course, but run over 6 weeks with two 3h sessions per week. This is thus more of a short crash course, and students willing to learn more should definitely check out Kogan's course as well.
-- More content on games, as much of the content is inherited from the [Computational Intelligence in Games](https://version.aalto.fi/gitlab/hamalap5/CIGCourse2018) course by Perttu Hämäläinen (Spring 2018, now replaced by this course)
-
-[Machine Learning: Basic Principles](https://mycourses.aalto.fi/course/view.php?id=20569) at Aalto CS:
-
-- We have some similar exercises, but the focus is more on applications and less on theory and mathematics, in order to make the material accessible for a wider audience. The more mathematically inclined students are highly encouraged to take both courses.
-
-[Special Course in Computer Science D: Seminar on Computational Creativity](https://mycourses.aalto.fi/course/view.php?id=30459) at Aalto CS/ARTS:
-
-- We focus on specific algorithms and their application, while this seminar focusses on theoretical questions regarding what makes a computational system creative, e.g. the very definition of creativity, means of evaluating creative systems, and the role of autonomy and intentionality. These questions are highly relevant to this course too, and we consequently provide a Computational Creativity crash course lecture on the last day of teaching.
-
-[Elements of AI](https://www.elementsofai.com/):
-
-- We have more practical exercises; this is a good follow-up if you've already taken that course.
-
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/) by Simon J.D. Prince. Published in December 2023, this is currently the most up-to-date textbook for deep learning, praised for its clear explanations and helpful visualizations. An excellent resource for digging deeper, for those that can handle some linear algebra, probability, and statistics. PDF available.
 
 ### Updates
 
