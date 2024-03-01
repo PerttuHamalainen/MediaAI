@@ -64,8 +64,8 @@ Students can choose their **project topics** based on their own interests and le
 * Learn about Colab notebooks (used for course exercises) by watching these videos: [Video 1](https://www.youtube.com/watch?v=inN8seMm7UI), [Video 2](https://www.youtube.com/watch?v=PitcORQSjNM) and reading through this [Tutorial notebook](https://colab.research.google.com/notebooks/welcome.ipynb). Feel free to also take a peek at this course's exercise notebooks such as [GAN image generation](https://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/BigGAN%20test.ipynb). To test the notebook, **select "run all"** from the **"runtime" menu**. This runs all the code cells in sequence and should generate and display some images at the bottom of the notebook. In general, when opening a notebook, it's good to use "run all" first, before starting to modify individual code cells, because the cells often depend on variables initialized or packages imported in the preceding cells.
 
 
-## Syllabus and contents
-The following provides the lecture slides and exercises. We will progress roughly one day per topic, devoting the last sessions to individual project work.
+## Lectures and Exercises
+We will progress roughly one day per topic, devoting the last sessions to individual project work.
 
 **Overview and Motivation:**
 
