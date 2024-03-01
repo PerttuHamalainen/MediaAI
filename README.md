@@ -13,17 +13,17 @@ Follow the course's [Twitter feed](https://twitter.com/aaltomediaai) for links a
 
 This is a hands-on, project-based crash course for deep learning and other AI techniques for people with **as little technical prerequisites as possible.** The focus is on **media processing and games**, which makes this particularly suitable for **artists and designers**.
 
-The 2024 edition of this course is taught during Aalto University's Period 3 (six weeks) by **Prof Perttu Hämäläinen**  ([Twitter](https://twitter.com/perttu_h)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registeration through [Aalto's Mycourses system](https://mycourses.aalto.fi), specific inquiries to: perttu.hamalainen[at]aalto.fi (but check the info below first).
+The 2024 edition of this course is taught during Aalto University's Period 3 (six weeks) by **Prof Perttu Hämäläinen**  ([Twitter](https://twitter.com/perttu_h)) and **Nam Hee Gordon Kim.** ([Twitter](https://twitter.com/NamHeeGordonKim)). Registration through [Aalto's Mycourses system](https://mycourses.aalto.fi).
 
 ### Learning Goals
 
 The goal is for students to:
 
-- understand how common AI algorithms & tools work,
-- understand what the tools can be used for in context of art, media, and design, and
-- get hands-on practice of designing, implementing and/or using the tools.
+- Understand how common AI algorithms & tools work,
+- Understand what the tools can be used for in context of art, media, and design, and
+- Get hands-on practice of designing, implementing and/or using the tools.
 
-### Materials and pedagogical approach
+### Pedagogical approach
 
 The course is taught through:
 
