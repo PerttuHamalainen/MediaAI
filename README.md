@@ -51,7 +51,7 @@ Students can choose their **project topics** based on their own interests and le
 
 **Before the first lecture, you should:**
 
-* Prepare to add one slide to a shared Google Slides document (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills. If you do not yet know what to work on, browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration.
+* Prepare to add one slide to a shared slide deck (link provided at the first lecture), including 1) your name and photo, 2) your background and skillset, 3) and what kind of projects you want to work on. This will be useful for finding other students with similar interests and/or complementary skills. If you do not yet know what to work on, browse the [Course Twitter](https://twitter.com/aaltomediaai) for inspiration.
 
 * Make yourself a Google account if you don't have one. This is needed for [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#), which we use for many demos and programming exercises. **Important security notice:** Colab notebooks run on Google servers and by default cannot access files on your computer. However, some notebooks might contain malicious code. Thus, *do not input any passwords or let a Colab notebook connect with your Google Drive* unless you trust the notebook. The notebooks in this repository should be safe but the lecture slides also link to 3rd party notebooks that one can never be sure about.
 
@@ -70,7 +70,7 @@ We will spend roughly one week per topic, devoting the last sessions to individu
 **Overview and Motivation:**
 
 - Lecture: [Overview and motivation](Lessons/LectureSlides/course_intro.pdf). Why one should rather co-create than compete with AI technology.
-- Exercise: Each student adds their slide to the shared Google Slides. We will then go through the slides and briefly discuss the topics and who might benefit from collaborating with others.
+- Exercise: Each student adds their slide to the shared slide deck. We will then go through the slides and briefly discuss the topics and who might benefit from collaborating with others.
 
 Optional programming exercises for those with at least some programming background:
 - Exercise: If you didn't already do it, go through the Colab learning links in the [course prerequisites](https://github.com/PerttuHamalainen/MediaAI/blob/master/Lessons/Prerequisites.md).
@@ -84,11 +84,9 @@ Optional programming exercises for those with at least some programming backgrou
 
 - Lecture: [Co-writing with AI](Lessons/LectureSlides/Writing_with_AI.pdf). Introduction to Large Language Models (LLMs), some history, examples of different types of texts and applications.
 
-- Lecture: [Deeper into transformers](Lessons/LectureSlides/deeper_into_transformers.pdf). Understanding transformer attention and emergent abilities of LLMs.
+- Exercises: [Few-shot Prompting and embedding vectors](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/few_shot_prompting.ipynb)
 
-- Exercises: [Generating game ideas, automating manual prompting using Python, Retrieval-Augmented Generation](Lessons/LectureSlides/Writing_with_AI_exercises.pdf)
-
-- Tutorial: [Few-shot Prompting using OpenAI API](http://colab.research.google.com/github/PerttuHamalainen/MediaAI/blob/master/Code/Jupyter/few_shot_prompting.ipynb)
+- Lecture: [Deeper into transformers](Lessons/LectureSlides/deeper_into_transformers.pdf). Understanding the transformer attention mechanism and emergent abilities of LLMs.
 
 
 **Image Generation**
